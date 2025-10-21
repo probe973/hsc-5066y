@@ -7,7 +7,7 @@ author:           UEA # <<< ENSURE THIS IS UPDATED WITH YOUR NAME/ORG
 
 baseurl:          "/hsc-5066y" # <<< THIS MUST BE EXACTLY THIS
 
-url:              "" # <<< Left blank as per your preference.
+url:              "https://probe973.github.io/hsc-5066y" # <<< Left blank as per your preference.
 
 # Jekyll Build Settings
 markdown:         kramdown

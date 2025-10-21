@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - Jamovi Course</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png"> <!-- Optional: Add a favicon -->
+
+    <!-- MathJax Script for LaTeX equations -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    </script>
+</head>
+<body>
+    <header>
+        <h1>{{ site.title | default: "Jamovi Data Exploration Course" }}</h1>
+        <p>{{ site.description | default: "An interactive course for exploring datasets with jamovi." }}</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/module1">Module 1</a></li>
+            <li><a href="/module2">Module 2</a></li>
+            <li><a href="/about">About</a></li>
+            <!-- Add more navigation links as your course develops -->
+        </ul>
+    </nav>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.author | default: "Your Name/Organization" }}. All rights reserved.</p>
+        <p>Built with <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> and hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.</p>
+    </footer>
+
+    <!-- Script for question interactivity (will be developed later) -->
+    <script src="/assets/js/scripts.js"></script>
+</body>
+</html>

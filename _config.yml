@@ -1,0 +1,40 @@
+# _config.yml
+
+# Site Settings
+# These are used to personalize your site, e.g., to display your site title in the header.
+title:            HSC-5066Y Jamovi Data Exploration Course
+description:      An interactive course resource for students of HSC-5066Y. Focused on practical data exploration and analysis using jamovi.
+author:           University of East Anglia
+baseurl:          "/hsc-5066y"
+url:              "" # IMPORTANT: The full URL to your site, e.g. 'https://yourusername.github.io/my-repo-name'
+
+# Jekyll Build Settings
+markdown:         kramdown
+highlighter:      rouge
+plugins:
+  # No SEO plugins needed if search discoverability is not a goal.
+  # Add other Jekyll plugins you might use later if needed.
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - README.md
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

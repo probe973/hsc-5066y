@@ -114,6 +114,16 @@ main {
     border-radius: 7px;
 }
 
+/* NEW RULE: Fix for large gap above titles in colored boxes */
+.explanation h1:first-child,
+.instructions h1:first-child,
+.output h1:first-child,
+.explanation h2:first-child,
+.instructions h2:first-child,
+.output h2:first-child {
+    margin-top: 0;
+}
+
 /* Jamovi Instructions (Light Blue) */
 .instructions {
     background-color: #e3f2fd; /* Light blue */
@@ -225,21 +235,23 @@ img {
     display: inline-block;
     background-color: #28a745; /* Green */
     color: white;
-    padding: 12px 20px; /* Adjusted padding */
+    padding: 12px 24px; /* Adjusted padding */
     border: none;
-    border-radius: 5px;
+    border-radius: 6px; /* Slightly more rounded */
     cursor: pointer;
-    font-size: 1.05em; /* Slightly larger font */
-    margin-top: 15px; /* More margin */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
-    text-decoration: none; /* Ensure no underline */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 1.05em;
+    font-weight: 600; /* Bolder text for confidence */
+    letter-spacing: 0.5px; /* More readable text */
+    margin-top: 15px;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; /* Smoother transition */
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .btn:hover {
     background-color: #218838; /* Darker green */
-    transform: translateY(-1px); /* Subtle lift effect */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transform: translateY(-2px); /* Slightly larger lift effect */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15); /* More pronounced shadow */
 }
 
 .btn:focus { /* Specific focus style for buttons */

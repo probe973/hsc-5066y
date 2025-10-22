@@ -1,4 +1,4 @@
-/* style.css */
+/* style.css - Cleaned and Corrected */
 
 /* General Body Styles */
 body {
@@ -7,71 +7,100 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4; /* A very light grey for overall background */
-    color: #333;
+    color: #333; /* Dark text for good contrast */
+    text-rendering: optimizeLegibility; /* Improves text rendering */
+    -webkit-font-smoothing: antialiased; /* Smoother fonts for WebKit browsers */
+    -moz-osx-font-smoothing: grayscale; /* Smoother fonts for Firefox on OSX */
 }
 
 /* Header Styles */
 header {
     background-color: #34495e; /* Darker blue for header */
     color: #ffffff;
-    padding: 1rem 0;
+    padding: 1.5rem 0; /* Slightly more padding for visual comfort */
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15); /* Slightly stronger shadow */
+}
+
+header h1 {
+    color: #ffffff; /* Ensure header title is white */
+    margin: 0; /* Remove default margin from h1 inside header */
+    font-size: 2.5em;
+}
+
+header p {
+    color: #e0e0e0; /* Slightly off-white for description */
+    margin: 0.5em 0 0;
+    font-size: 1.1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #2c3e50; /* Dark blue for headings */
+    color: #2c3e50; /* Dark blue for main headings */
     margin-top: 1.5em;
     margin-bottom: 0.8em;
+    line-height: 1.2;
 }
 
 /* Navigation Bar */
 nav {
-    background-color: #34495e; /* Same as header for consistency */
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #2c3e50; /* Slightly darker than header for distinction, but still dark */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0.5rem 0; /* Reduced vertical padding for a compact look */
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Use flexbox for horizontal layout */
+    display: flex; /* Flexbox for horizontal layout */
     justify-content: center; /* Center the navigation links */
-    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 nav ul li a {
     display: block;
-    color: #f9f9f9; /* Changed to a lighter white for better contrast */
+    color: #ecf0f1; /* Light grey for excellent contrast on dark blue */
     text-align: center;
-    padding: 10px 15px; /* Reduced padding for a less "large" look */
+    padding: 12px 20px; /* Balanced padding */
     text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
-    font-size: 1.05em; /* Slightly increased font size for readability */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 1.0em; /* Standard font size */
+    font-weight: 500; /* Slightly bolder for readability */
 }
 
 nav ul li a:hover,
-nav ul li a.active { /* Added active state styling */
-    background-color: #2c3e50; /* Slightly darker on hover */
-    color: #f39c12; /* Orange for active/hover state for better visibility */
+nav ul li a:focus { /* Added focus for keyboard navigation accessibility */
+    background-color: #3498db; /* A vibrant blue on hover/focus */
+    color: #ffffff; /* White text on blue for clear contrast */
+    outline: none; /* Remove default browser outline as we have custom focus style */
 }
+
+/* Active Navigation Link (for the current page) */
+nav ul li a.active {
+    background-color: #3498db; /* Distinct background for active link */
+    color: #ffffff; /* White text for active link */
+    font-weight: bold; /* Bold text for active link */
+    cursor: default; /* Change cursor for active link */
+}
+/* You will need to add the 'active' class to the <li><a href="..."> tag in your default.html or using JavaScript for the current page */
+
 
 /* Main Content Area */
 main {
     max-width: 960px;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 25px auto; /* Increased margin top/bottom */
+    padding: 25px 30px; /* Slightly more internal padding */
     background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* Smoother, larger shadow */
     border-radius: 8px;
+    line-height: 1.7; /* Increased line height for readability */
 }
 
 /* Section Styling */
 .course-section {
-    margin-bottom: 2em;
+    margin-bottom: 2.5em; /* Increased bottom margin */
     padding: 1.5em;
-    border-left: 5px solid; /* For a subtle visual distinction */
+    border-left: 5px solid;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -81,6 +110,8 @@ main {
     background-color: #fff8e1; /* Light cream */
     border-color: #ffecb3; /* Slightly darker cream border */
     color: #5d4037; /* Darker text for good contrast */
+    padding: 1.8em; /* More padding */
+    border-radius: 7px;
 }
 
 /* Jamovi Instructions (Light Blue) */
@@ -88,6 +119,8 @@ main {
     background-color: #e3f2fd; /* Light blue */
     border-color: #bbdefb; /* Slightly darker blue border */
     color: #1976d2; /* Darker blue text for good contrast */
+    padding: 1.8em;
+    border-radius: 7px;
 }
 
 /* Jamovi Output (Light Green) */
@@ -98,6 +131,8 @@ main {
     font-family: 'Courier New', Courier, monospace; /* Monospace for output */
     white-space: pre-wrap; /* Preserve whitespace and wrap long lines */
     word-wrap: break-word; /* Break long words */
+    padding: 1.8em;
+    border-radius: 7px;
 }
 
 /* Code Snippets within other sections */
@@ -107,35 +142,49 @@ code {
     border-radius: 3px;
     font-family: 'Courier New', Courier, monospace;
     color: #c7254e;
+    word-wrap: break-word; /* Ensure inline code wraps */
 }
 
 pre {
-    background-color: #f0f0f0;
-    padding: 1em;
+    background-color: #f8f8f8; /* Lighter pre background */
+    padding: 1.2em;
     border-radius: 5px;
     overflow-x: auto; /* Allow horizontal scrolling for long lines */
+    border: 1px solid #e0e0e0; /* Subtle border */
 }
 
 /* Footer Styles */
 footer {
     text-align: center;
-    padding: 20px;
-    margin-top: 30px;
+    padding: 25px; /* Increased padding */
+    margin-top: 40px; /* More space above footer */
     background-color: #34495e;
-    color: #ffffff;
+    color: #e0e0e0; /* Slightly off-white for good contrast */
     font-size: 0.9em;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 -3px 6px rgba(0,0,0,0.1);
 }
 
-/* Accessibility Focus Styles */
-a:focus, button:focus, input:focus, select:focus, textarea:focus {
-    outline: 3px solid #f39c12; /* Orange outline for keyboard navigation */
+footer a {
+    color: #5dade2; /* Lighter blue for footer links */
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    text-decoration: underline;
+    color: #85c1e9; /* Even lighter on hover/focus */
+}
+
+/* Accessibility Focus Styles - General */
+a:focus:not(.btn), button:focus:not(.btn), input:focus, select:focus, textarea:focus {
+    outline: 3px solid #f39c12; /* Distinct orange outline for keyboard navigation */
     outline-offset: 2px;
 }
 
 /* MathJax specific styles (optional, can be refined based on MathJax output) */
 .MathJax_Display {
     overflow-x: auto;
+    margin: 1em 0; /* Add margin around equations */
 }
 
 /* Image styling */
@@ -143,29 +192,32 @@ img {
     max-width: 100%;
     height: auto;
     display: block; /* Remove extra space below images */
-    margin: 1em auto;
+    margin: 1.5em auto; /* More margin */
     border: 1px solid #ddd;
     border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Subtle image shadow */
 }
 
 /* For question sections - initial styling */
 .question-container {
     background-color: #eceff1; /* Light grey for question boxes */
     border-left: 5px solid #607d8b;
-    padding: 1.5em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    border-radius: 5px;
+    padding: 1.8em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    border-radius: 7px;
 }
 
 .question-container h3 {
     color: #263238;
+    margin-top: 0;
+    font-size: 1.4em;
 }
 
 .question-solution {
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: 1px dashed #ccc;
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    border-top: 1px dashed #b0bec5; /* Lighter dashed line */
 }
 
 /* Button styles for check/show solution */
@@ -173,17 +225,26 @@ img {
     display: inline-block;
     background-color: #28a745; /* Green */
     color: white;
-    padding: 10px 15px;
+    padding: 12px 20px; /* Adjusted padding */
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1em;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
+    font-size: 1.05em; /* Slightly larger font */
+    margin-top: 15px; /* More margin */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+    text-decoration: none; /* Ensure no underline */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .btn:hover {
     background-color: #218838; /* Darker green */
+    transform: translateY(-1px); /* Subtle lift effect */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.btn:focus { /* Specific focus style for buttons */
+    outline: 3px solid #f39c12; /* Orange outline */
+    outline-offset: 3px;
 }
 
 .btn-primary {
@@ -196,52 +257,38 @@ img {
 /* Input fields and select boxes */
 input[type="text"], input[type="number"], select {
     width: 100%;
+    max-width: 400px; /* Constrain width for better form readability */
     padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 8px; /* More margin */
+    margin-bottom: 15px; /* More margin */
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box;
+    font-size: 1em;
 }
 
 /* Feedback messages for questions */
 .feedback-correct {
     color: #28a745; /* Green */
     font-weight: bold;
-    margin-top: 0.5em;
+    margin-top: 0.8em;
+    font-size: 1.1em;
 }
 
 .feedback-incorrect {
     color: #dc3545; /* Red */
     font-weight: bold;
-    margin-top: 0.5em;
+    margin-top: 0.8em;
+    font-size: 1.1em;
 }
 
 /* Dropdown solutions */
 .solution-content {
     background-color: #f0f4c3; /* Light yellow-green for solutions */
     border: 1px solid #cddc39;
-    padding: 1em;
-    margin-top: 1em;
-    border-radius: 5px;
+    padding: 1.5em;
+    margin-top: 1.5em;
+    border-radius: 7px;
     display: none; /* Hidden by default */
 }
 .solution-content.visible {
-    display: block; /* Shown when toggled */
-}
-
-/* Responsive adjustments for navigation */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column; /* Stack navigation items vertically on small screens */
-    }
-
-    nav ul li a {
-        padding: 10px; /* Adjust padding for stacked items */
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle separator */
-    }
-
-    nav ul li:last-child a {
-        border-bottom: none; /* No separator for the last item */
-    }
-}

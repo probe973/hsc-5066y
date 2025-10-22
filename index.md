@@ -14,7 +14,7 @@ We recommend starting with the jamovi guides if you are new to the software, or 
 </div>
 
 <div style="text-align: center; margin-top: 3em;">
-    <a href="{{ "/jamovi/" | relative_url }}" class="btn btn-primary" style="opacity: 0.8;">Course guides for using jamovi</a>
-    <br><br>
-    <a href="{{ "/let/" | relative_url }}" class="btn btn-primary" style="opacity: 0.8;">Workshops offered by the Learning Enhancement Team</a>
+    <a href="{{ "/jamovi/" | relative_url }}" class="btn btn-primary">Course guides for using jamovi</a>
+<br><br>
+<a href="{{ "/let/" | relative_url }}" class="btn btn-primary">Workshops offered by the Learning Enhancement Team</a>
 </div>

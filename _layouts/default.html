@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - Jamovi Course</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-    <link rel="icon" type="image/png" href="/assets/images/favicon.png"> <!-- Optional: Add a favicon -->
+    <!-- Corrected link using relative_url -->
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ "/assets/images/favicon.png" | relative_url }}">
 
     <!-- MathJax Script for LaTeX equations -->
     <script>
@@ -30,10 +31,10 @@
 
     <nav>
         <ul>
-            <li><a href="/">HSC-5066Y</a></li> <!-- Links to index.html in root -->
-            <li><a href="/jamovi/">jamovi Guides</a></li> <!-- Links to jamovi/index.html -->
-            <li><a href="/let/">LET Workshops</a></li> <!-- Links to let/index.html -->
-            <!-- Add more navigation links as course develops -->
+            <!-- CORRECTED: Navigation links now use relative_url to point to the right place -->
+            <li><a href="{{ "/" | relative_url }}">HSC-5066Y</a></li>
+            <li><a href="{{ "/jamovi/" | relative_url }}">jamovi Guides</a></li>
+            <li><a href="{{ "/let/" | relative_url }}">LET Workshops</a></li>
         </ul>
     </nav>
     
@@ -42,11 +43,11 @@
     </main>
 
     <footer>
-        
+        <!-- Copyright line has been removed as requested -->
         <p>Built with <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> and hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.</p>
     </footer>
 
-    <!-- Script for question interactivity (will be developed later) -->
-    <script src="/assets/js/scripts.js"></script>
+    <!-- Corrected script link using relative_url -->
+    <script src="{{ "/assets/js/scripts.js" | relative_url }}"></script>
 </body>
 </html>

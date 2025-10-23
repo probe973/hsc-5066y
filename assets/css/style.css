@@ -303,4 +303,81 @@ input[type="text"], input[type="number"], select {
     border-radius: 7px;
     display: none; /* Hidden by default */
 }
+/* --- FIX for Dropdown solutions & ADDITION of Card Styles --- */
+
+/* Dropdown solutions (Corrected and Complete) */
+.solution-content {
+    background-color: #f0f4c3; /* Light yellow-green for solutions */
+    border: 1px solid #cddc39;
+    padding: 1.5em;
+    margin-top: 1.5em;
+    border-radius: 7px;
+    display: none; /* Hidden by default */
+}
 .solution-content.visible {
+    display: block; /* This makes it visible when toggled */
+}
+
+
+/* --- Topic Card Menu Styles (Complete Version for SVG Icons) --- */
+
+/* This creates the two-column grid for your cards */
+.card-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 3em;
+}
+
+/* This styles the card itself */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* This creates the hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-color: #3498db;
+}
+
+/* This lays out the icon and text side-by-side */
+.card-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* This is the container for the icon */
+.card-icon {
+    flex-shrink: 0; /* Prevents the icon from shrinking */
+}
+
+/* This styles the SVG icon itself */
+.card-icon svg {
+    width: 48px;
+    height: 48px;
+    stroke: #34495e; /* This is the color for the icon */
+}
+
+/* This styles the title text in the card */
+.card-text h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.3em;
+    color: #2c3e50;
+}
+
+/* This styles the paragraph text in the card */
+.card-text p {
+    margin: 0;
+    font-size: 0.95em;
+    color: #666;
+    line-height: 1.5;
+}

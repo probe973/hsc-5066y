@@ -18,22 +18,13 @@ All data can be broadly split into two main types: **categorical** and **numeric
 When data is categorical, we can further classify it:
 
 *   **Nominal:** These are categories with no inherent order or ranking. In jamovi, this is the **Nominal** data type.
-    *   *Example:* Types of pets (Dog, Cat, Fish).
-
 *   **Ordinal:** These are categories that have a meaningful order or rank, but the distance between the categories is not equal or measurable. In jamovi, this is the **Ordinal** data type.
-    *   *Example:* A satisfaction rating (Very Dissatisfied, Dissatisfied, Neutral, Satisfied, Very Satisfied).
 </div>
 
 <div class="explanation" markdown="1">
-### Numerical Data: Interval and Ratio
+### Numerical Data (Continuous in jamovi)
 
-Academically, measured numerical data is often split into two types: Interval and Ratio. However, for practical purposes, **jamovi calls both Interval and Ratio data 'Continuous'**.
-</div>
-
-<div class="explanation" markdown="1">
-### Numerical Data: Discrete and Continuous
-
-Another way to think about numerical data is whether it's discrete (can only take specific values, like number of siblings) or continuous (can take any value in a range, like height). However, once again, **jamovi simplifies this and calls all numerical data (both Discrete and Continuous) 'Continuous'**.
+For practical purposes, jamovi simplifies all numerical data (whether it's discrete, continuous, interval, or ratio) into a single data type: **Continuous**.
 </div>
 
 ---
@@ -42,48 +33,48 @@ Another way to think about numerical data is whether it's discrete (can only tak
 For the following variables, how would you classify them in jamovi?
 
 {% include question_multiple_choice.html
-    id="q_eyecolour"
-    title="Eye Colour"
-    question_text="A variable recording a person's eye colour (e.g., Blue, Green, Brown)."
+    id="q_ethnicity"
+    title="Participant Ethnicity"
+    question_text="A variable recording a participant's self-reported ethnicity (e.g., White, Black, Asian)."
     options="nominal::Nominal||ordinal::Ordinal||continuous::Continuous"
     correct_answer="nominal"
-    solution_text="Eye colour categories have no inherent order, so they are Nominal."
+    solution_text="Ethnicity is a set of categories with no inherent order, making it Nominal."
 %}
 
 {% include question_multiple_choice.html
-    id="q_satisfaction"
-    title="Satisfaction Rating"
-    question_text="A variable recording a participant's satisfaction on a scale from 'Very Dissatisfied' to 'Very Satisfied'."
+    id="q_finish_position"
+    title="Race Finishing Position"
+    question_text="A variable recording the finishing position in a race (e.g., 1st, 2nd, 3rd)."
     options="nominal::Nominal||ordinal::Ordinal||continuous::Continuous"
     correct_answer="ordinal"
-    solution_text="The categories have a clear order, but the distance between them is not equal, making them Ordinal."
+    solution_text="Finishing positions have a clear rank (1st is better than 2nd), but the time difference between 1st and 2nd might not be the same as between 2nd and 3rd. This makes it Ordinal."
 %}
 
 {% include question_multiple_choice.html
-    id="q_temperature"
-    title="Temperature"
-    question_text="A variable recording the temperature of a room in degrees Celsius."
+    id="q_reaction_time"
+    title="Reaction Time"
+    question_text="A variable recording the time in milliseconds a person takes to press a button."
     options="nominal::Nominal||ordinal::Ordinal||continuous::Continuous"
     correct_answer="continuous"
-    solution_text="Temperature is a measured numerical variable. In jamovi, all numerical data is classified as Continuous."
+    solution_text="Time is a measured numerical variable. In jamovi, this is classified as Continuous."
 %}
 
 {% include question_multiple_choice.html
-    id="q_siblings"
-    title="Number of Siblings"
-    question_text="A variable recording the number of siblings a person has."
+    id="q_postcode"
+    title="Postcode"
+    question_text="A variable recording a participant's postcode (e.g., NR4 7TJ)."
     options="nominal::Nominal||ordinal::Ordinal||continuous::Continuous"
-    correct_answer="continuous"
-    solution_text="Although this is technically discrete numerical data, jamovi handles all numerical data as Continuous."
+    correct_answer="nominal"
+    solution_text="Although it contains numbers, a postcode is just a label for a location. It has no numerical value or order, so it is Nominal."
 %}
 
 {% include question_multiple_choice.html
-    id="q_height"
-    title="Height"
-    question_text="A variable recording a person's height in centimetres."
+    id="q_likert_scale"
+    title="Likert Scale Agreement"
+    question_text="A variable from a survey asking for agreement on a 5-point scale from 'Strongly Disagree' to 'Strongly Agree'."
     options="nominal::Nominal||ordinal::Ordinal||continuous::Continuous"
-    correct_answer="continuous"
-    solution_text="Height is a measured numerical variable (specifically, ratio data), and jamovi handles all numerical data as Continuous."
+    correct_answer="ordinal"
+    solution_text="The 5 points have a clear order of agreement, but we can't assume the 'distance' between 'Agree' and 'Strongly Agree' is measurable. This is classic Ordinal data."
 %}
 
 <!-- This automatically adds the "Previous" and "Next" navigation buttons -->

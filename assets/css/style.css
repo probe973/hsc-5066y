@@ -365,17 +365,26 @@ input[type="number"] {
 
 .pagination-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Pushes left and right sides apart */
     align-items: center;
     margin-top: 3em;
     padding-top: 2em;
-    /* The border from the previous wrong version is now gone. */
+    width: 100%; /* Ensure it takes up the full width */
+    background: none; /* REMOVES any background color or bar */
+    border: none; /* REMOVES any border */
 }
 
 .pagination-prev {
-    text-align: left;
+    text-align: left; /* Aligns the 'Previous' button to the left */
 }
 
 .pagination-next {
-    text-align: right;
+    text-align: right; /* Aligns the 'Next' button to the right */
 }
+
+/* Ensure the buttons inside the pagination are ALWAYS visible */
+.pagination-nav .btn {
+    visibility: visible;
+    opacity: 1;
+    display: inline-block; /* Ensure it is not hidden */
+}```

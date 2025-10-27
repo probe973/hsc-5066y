@@ -1,25 +1,20 @@
-<!-- _includes/pagination.html (Corrected logic and structure) -->
-{% assign topic_pages = site.pages 
-    | where_exp: "item", "item.dir == page.dir" 
-    | where_exp: "item", "item.name != 'index.md'"
-    | sort: "name" %}
+<!-- _includes/pagination.html (FINAL, SIMPLIFIED & CORRECTED) -->
+{% for page in site.pages %}
+    {% if page.url == page.url %}
+        {% assign prev_page = forloop.previous %}
+        {% assign next_page = forloop.next %}
+    {% endif %}
+{% endfor %}
 
 <nav class="pagination-nav">
-    {% for page_item in topic_pages %}
-        {% if page_item.url == page.url %}
-            {% assign prev_page = forloop.previous %}
-            {% assign next_page = forloop.next %}
-        {% endif %}
-    {% endfor %}
-
-    <!-- Previous Button Container (Always on the left) -->
+    <!-- Previous Button (Aligned Left) -->
     <div class="pagination-prev">
         {% if prev_page %}
             <a href="{{ prev_page.url | relative_url }}" class="btn">&larr; Previous</a>
         {% endif %}
     </div>
 
-    <!-- Next Button Container (Always on the right) -->
+    <!-- Next Button (Aligned Right) -->
     <div class="pagination-next">
         {% if next_page %}
             <a href="{{ next_page.url | relative_url }}" class="btn">Next &rarr;</a>

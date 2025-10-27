@@ -1,4 +1,5 @@
-<!-- _includes/pagination.html (Using Text Links) -->
+<!-- _includes/pagination.html (FINAL - Using a DIV tag) -->
+
 {% assign topic_pages = site.pages
     | where_exp: "item", "item.dir == page.dir"
     | where_exp: "item", "item.name != 'index.md'"
@@ -16,11 +17,11 @@
 {% assign prev_page = topic_pages[prev_page_index] %}
 {% assign next_page = topic_pages[next_page_index] %}
 
-<nav class="pagination-nav">
+<!-- THE TAG IS NOW A DIV, NOT A NAV -->
+<div class="pagination-nav">
     <!-- Previous Link (Aligned Left) -->
     <div class="pagination-prev">
         {% if current_page_index > 0 %}
-            <!-- The class="btn" has been removed -->
             <a href="{{ prev_page.url | relative_url }}">&larr; Previous</a>
         {% endif %}
     </div>
@@ -28,8 +29,7 @@
     <!-- Next Link (Aligned Right) -->
     <div class="pagination-next">
         {% if next_page %}
-            <!-- The class="btn" has been removed -->
             <a href="{{ next_page.url | relative_url }}">Next &rarr;</a>
         {% endif %}
     </div>
-</nav>
+</div>

@@ -1,0 +1,32 @@
+<!-- _includes/pagination.html (Corrected to exclude index.md) -->
+{% comment %}
+    This file automatically generates 'Previous' and 'Next' links for pages
+    within the same topic folder. It requires pages to be named with numbers
+    at the beginning for correct sorting (e.g., 01-intro.md, 02-next.md).
+{% endcomment %}
+
+{% assign current_dir = page.dir %}
+{% assign topic_pages = site.pages 
+    | where_exp: "item", "item.url contains current_dir" 
+    | where_exp: "item", "item.name != 'index.md'"  
+    | sort: "name" 
+%}
+
+<nav class="pagination-nav">
+    {% for p in topic_pages %}
+        {% if p.url == page.url %}
+            {% assign prev_page = forloop.previous %}
+            {% assign next_page = forloop.next %}
+            <div class="pagination-prev">
+                {% if prev_page %}
+                    <a href="{{ prev_page.url | relative_url }}" class="btn">&larr; Previous</a>
+                {% endif %}
+            </div>
+            <div class="pagination-next">
+                {% if next_page %}
+                    <a href="{{ next_page.url | relative_url }}" class="btn">Next &rarr;</a>
+                {% endif %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</nav>

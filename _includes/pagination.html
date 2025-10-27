@@ -1,4 +1,4 @@
-<!-- _includes/pagination.html (Corrected and Simplified) -->
+<!-- _includes/pagination.html (Corrected logic and structure) -->
 {% assign topic_pages = site.pages 
     | where_exp: "item", "item.dir == page.dir" 
     | where_exp: "item", "item.name != 'index.md'"
@@ -7,19 +7,22 @@
 <nav class="pagination-nav">
     {% for page_item in topic_pages %}
         {% if page_item.url == page.url %}
-            {% assign prev_page = topic_pages[forloop.index0 | minus: 1] %}
-            {% assign next_page = topic_pages[forloop.index] %}
-
-            <div class="pagination-prev">
-                {% if forloop.first == false %}
-                    <a href="{{ prev_page.url | relative_url }}" class="btn">&larr; Previous</a>
-                {% endif %}
-            </div>
-            <div class="pagination-next">
-                {% if forloop.last == false %}
-                    <a href="{{ next_page.url | relative_url }}" class="btn">Next &rarr;</a>
-                {% endif %}
-            </div>
+            {% assign prev_page = forloop.previous %}
+            {% assign next_page = forloop.next %}
         {% endif %}
     {% endfor %}
+
+    <!-- Previous Button Container (Always on the left) -->
+    <div class="pagination-prev">
+        {% if prev_page %}
+            <a href="{{ prev_page.url | relative_url }}" class="btn">&larr; Previous</a>
+        {% endif %}
+    </div>
+
+    <!-- Next Button Container (Always on the right) -->
+    <div class="pagination-next">
+        {% if next_page %}
+            <a href="{{ next_page.url | relative_url }}" class="btn">Next &rarr;</a>
+        {% endif %}
+    </div>
 </nav>

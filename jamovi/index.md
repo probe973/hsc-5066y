@@ -11,6 +11,7 @@ Welcome to the jamovi guides. These tutorials will walk you through the essentia
 <div class="card-menu">
 
     <!-- Card 1: Getting to know jamovi -->
+    <!-- Icon: A simple application window, representing the software itself. -->
     <a href="{{ "/jamovi/getting-started/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
@@ -24,6 +25,7 @@ Welcome to the jamovi guides. These tutorials will walk you through the essentia
     </a>
 
     <!-- Card 2: Descriptive statistics (frequencies) -->
+    <!-- Icon: A bar chart, correctly representing frequencies of categorical data. -->
     <a href="{{ "/jamovi/descriptives-frequencies/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
@@ -37,10 +39,11 @@ Welcome to the jamovi guides. These tutorials will walk you through the essentia
     </a>
 
     <!-- Card 3: Descriptive statistics (central tendency, etc.) -->
+    <!-- Icon: A histogram, correctly representing the distribution of continuous data. -->
     <a href="{{ "/jamovi/descriptives-continuous/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h12A2.25 2.25 0 0 0 20.25 14.25V3M3.75 14.25v4.5A2.25 2.25 0 0 0 6 21h12a2.25 2.25 0 0 0 2.25-2.25v-4.5m-16.5 0h16.5" /></svg>
             </div>
             <div class="card-text">
                 <h3>Descriptives (Continuous)</h3>
@@ -50,10 +53,11 @@ Welcome to the jamovi guides. These tutorials will walk you through the essentia
     </a>
 
     <!-- Card 4: Normality -->
+    <!-- Icon: A proper bell curve, the visual representation of a normal distribution. -->
     <a href="{{ "/jamovi/normality/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 12h-2.25m-1.666 5.834l-1.591-1.591M4.5 12H2.25m1.666-5.834l1.591 1.591M12 21.75V19.5" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" /></svg>
             </div>
             <div class="card-text">
                 <h3>Normality</h3>
@@ -63,10 +67,11 @@ Welcome to the jamovi guides. These tutorials will walk you through the essentia
     </a>
 
     <!-- Card 5: Types of inferential tests -->
+    <!-- Icon: A decision flowchart or map, representing choosing the correct path/test. -->
     <a href="{{ "/jamovi/choosing-a-test/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" /></svg>
             </div>
             <div class="card-text">
                 <h3>Types of Inferential Tests</h3>
@@ -76,6 +81,7 @@ Welcome to the jamovi guides. These tutorials will walk you through the essentia
     </a>
 
     <!-- Card 6: Testing for differences (categorical data) -->
+    <!-- Icon: A 2x2 table, representing a contingency table used in chi-square tests. -->
     <a href="{{ "/jamovi/chi-square/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
@@ -88,11 +94,12 @@ Welcome to the jamovi guides. These tutorials will walk you through the essentia
         </div>
     </a>
     
-    <!-- Card 7: Testing for differences (continuous data) -->
+    <!-- Card 7: Testing for differences (independent groups) -->
+    <!-- Icon: Two separate user icons, clearly representing two independent groups. -->
     <a href="{{ "/jamovi/independent-t-test/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m-7.5-2.962A3 3 0 0 1 3 18.72v-2.962m3.446-4.226a3 3 0 0 1 4.108 0l3.056 3.056a3 3 0 0 1 0 4.108l-4.462 4.462a3 3 0 0 1-4.108 0l-3.056-3.056a3 3 0 0 1 0-4.108l4.462-4.462Z" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.53-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-4.67c.12-.143.25-.284.383-.427M9 8a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0Z" /></svg>
             </div>
             <div class="card-text">
                 <h3>Differences (Independent Groups)</h3>
@@ -101,11 +108,12 @@ Welcome to the jamovi guides. These tutorials will walk you through the essentia
         </div>
     </a>
     
-    <!-- Card 8: Testing for differences within groups (continuous data) -->
+    <!-- Card 8: Testing for differences (within groups) -->
+    <!-- Icon: A user icon with a "refresh" arrow, representing change over time for the same subject. -->
     <a href="{{ "/jamovi/paired-t-test/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 11.667 0l3.181-3.183m-4.991-2.691v4.992m0 0h-4.992m4.992 0-3.181-3.183a8.25 8.25 0 0 0-11.667 0l-3.181 3.183" /></svg>
             </div>
             <div class="card-text">
                 <h3>Differences (Within Groups)</h3>
@@ -115,10 +123,11 @@ Welcome to the jamovi guides. These tutorials will walk you through the essentia
     </a>
     
     <!-- Card 9: Testing for relationships -->
+    <!-- Icon: A scatter plot graph, the classic visual for showing relationships (correlation). -->
     <a href="{{ "/jamovi/correlation/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0 0 20.25 18V5.25A2.25 2.25 0 0 0 18 3H6A2.25 2.25 0 0 0 3.75 5.25v12.75A2.25 2.25 0 0 0 6 20.25Z" /></svg>
             </div>
             <div class="card-text">
                 <h3>Testing for Relationships</h3>

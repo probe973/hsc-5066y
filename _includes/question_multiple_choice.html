@@ -4,56 +4,31 @@
         {{ include.question_text | markdownify }}
     </div>
 
-    <form id="form-{{ include.id }}">
+    <!-- CHANGE #2: The form is now a div with the correct class for styling -->
+    <div id="form-{{ include.id }}" class="mcq-options">
         {% assign options_array = include.options | split: "||" %}
         {% for option in options_array %}
             {% assign option_parts = option | split: "::" %}
             {% assign option_value = option_parts[0] | strip %}
             {% assign option_label = option_parts[1] | strip | default: option_value %}
-            <label class="mc-option">
+            <!-- This label no longer needs a special class -->
+            <label>
                 <input type="radio" name="choice-{{ include.id }}" value="{{ option_value }}">
-                <span>{{ option_label }}</span>
-            </label><br>
+                {{ option_label }}
+            </label>
         {% endfor %}
-    </form>
+    </div>
 
     <button class="btn" onclick="checkMultipleChoice('{{ include.id }}', '{{ include.correct_answer }}')">Check Answer</button>
 
-    <div id="feedback-{{ include.id }}" class="feedback"></div>
+    <div id="feedback-{{ include.id }}"></div>
 
-    {% if include.show_solution %}
-        <button class="btn btn-primary" onclick="toggleSolution('solution-{{ include.id }}')">Show Solution</button>
+    {% if include.solution_text %}
+        <button class="btn btn-primary solution-toggle-button" onclick="toggleSolution('solution-{{ include.id }}', this)">Show Solution</button>
         <div id="solution-{{ include.id }}" class="solution-content">
             <h4>Solution:</h4>
             {{ include.solution_text | markdownify }}
         </div>
     {% endif %}
 </div>
-
-<script>
-    // This script will be consolidated into assets/js/scripts.js later
-    // For now, it's here for immediate context.
-    function checkMultipleChoice(id, correctAnswer) {
-        const formElement = document.getElementById(`form-${id}`);
-        const feedbackElement = document.getElementById(`feedback-${id}`);
-        const selectedOption = formElement.querySelector(`input[name="choice-${id}"]:checked`);
-
-        feedbackElement.classList.remove('feedback-correct', 'feedback-incorrect');
-        feedbackElement.textContent = '';
-
-        if (!selectedOption) {
-            feedbackElement.textContent = 'Please select an option.';
-            feedbackElement.classList.add('feedback-incorrect');
-            return;
-        }
-
-        if (selectedOption.value === correctAnswer) {
-            feedbackElement.textContent = 'Correct!';
-            feedbackElement.classList.add('feedback-correct');
-        } else {
-            feedbackElement.textContent = 'Incorrect. Try again!';
-            feedbackElement.classList.add('feedback-incorrect');
-        }
-    }
-    // `toggleSolution` from above is also needed here if show_solution is true
-</script>
+<!-- CHANGE #1: The <script> block that was here is now completely removed. -->

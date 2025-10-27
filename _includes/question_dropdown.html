@@ -11,22 +11,3 @@
         {{ include.solution_text | markdownify }}
     </div>
 </div>
-
-<script>
-    // This script will be consolidated into assets/js/scripts.js later
-    // For now, it's here for immediate context.
-    function toggleSolution(solutionId) {
-        const solutionElement = document.getElementById(solutionId);
-        if (solutionElement) {
-            solutionElement.classList.toggle('visible');
-            const button = solutionElement.previousElementSibling; // Get the button element
-            if (button && button.tagName === 'BUTTON') {
-                if (solutionElement.classList.contains('visible')) {
-                    button.textContent = 'Hide Solution';
-                } else {
-                    button.textContent = 'Show Solution';
-                }
-            }
-        }
-    }
-</script>

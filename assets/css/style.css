@@ -254,7 +254,7 @@ a:focus:not(.btn), button:focus:not(.btn), input:focus, select:focus, textarea:f
 
 .btn {
     display: inline-block;
-    background-color: #28a745;
+    background-color: #34495e;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -270,17 +270,17 @@ a:focus:not(.btn), button:focus:not(.btn), input:focus, select:focus, textarea:f
 }
 
 .btn:hover {
-    background-color: #218838;
+    background-color: #4a627a;
     transform: translateY(-2px);
     box-shadow: 0 5px 10px rgba(0,0,0,0.15);
 }
 
 .btn-primary {
-    background-color: #007bff;
+    background-color: #34495e;
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #4a627a;
 }
 
 .mcq-options {

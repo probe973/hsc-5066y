@@ -363,28 +363,37 @@ input[type="number"] {
     display: block;
 }
 
+/* --- Page Navigation (Next/Previous) Styles (Text Links) --- */
 .pagination-nav {
     display: flex;
-    justify-content: space-between; /* Pushes left and right sides apart */
+    justify-content: space-between;
     align-items: center;
-    margin-top: 3em;
-    padding-top: 2em;
-    width: 100%; /* Ensure it takes up the full width */
-    background: none; /* REMOVES any background color or bar */
-    border: none; /* REMOVES any border */
+    margin-top: 2.5em; /* Reduced space */
+    padding-top: 1.5em; /* Reduced space */
+    border-top: 1px solid #e0e0e0; /* A clean, thin separator line */
 }
 
+/* This styles the container for the "Previous" link */
 .pagination-prev {
-    text-align: left; /* Aligns the 'Previous' button to the left */
+    text-align: left;
 }
 
+/* This styles the container for the "Next" link */
 .pagination-next {
-    text-align: right; /* Aligns the 'Next' button to the right */
+    text-align: right;
 }
 
-/* Ensure the buttons inside the pagination are ALWAYS visible */
-.pagination-nav .btn {
-    visibility: visible;
-    opacity: 1;
-    display: inline-block; /* Ensure it is not hidden */
-}```
+/* This styles the actual text links */
+.pagination-nav a {
+    color: #34495e; /* Use the dark blue from your header */
+    text-decoration: none;
+    font-weight: 600; /* Make it bold and clear */
+    font-size: 1.1em;
+    transition: color 0.2s ease;
+}
+
+/* This adds an underline when you hover over the links */
+.pagination-nav a:hover {
+    color: #3498db; /* A brighter blue on hover */
+    text-decoration: underline;
+}

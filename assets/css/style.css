@@ -363,23 +363,19 @@ input[type="number"] {
     display: block;
 }
 
-/* --- Page Navigation (Next/Previous) Styles (Corrected) --- */
 .pagination-nav {
     display: flex;
-    justify-content: space-between; /* Pushes the left and right containers apart */
+    justify-content: space-between;
     align-items: center;
     margin-top: 3em;
     padding-top: 2em;
-    /* The horrible top border has been REMOVED */
+    /* The border from the previous wrong version is now gone. */
 }
 
 .pagination-prev {
-    /* This container for the 'Previous' button is aligned left by default */
-    flex: 1; 
+    text-align: left;
 }
 
 .pagination-next {
-    /* This container for the 'Next' button is aligned right */
-    flex: 1;
-    text-align: right; 
+    text-align: right;
 }

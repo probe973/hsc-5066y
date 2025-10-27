@@ -33,48 +33,48 @@ For practical purposes, jamovi simplifies all numerical data (whether it's discr
 For the following variables, how would you classify them in jamovi?
 
 {% include question_multiple_choice.html
-    id="q_ethnicity"
-    title="Participant Ethnicity"
-    question_text="A variable recording a participant's self-reported ethnicity (e.g., White, Black, Asian)."
+    id="q_transport"
+    title="Method of Transport"
+    question_text="A variable recording a person's primary method of transport to work (e.g., Car, Bus, Train, Bicycle)."
     options="nominal::Nominal||ordinal::Ordinal||continuous::Continuous"
     correct_answer="nominal"
-    solution_text="Ethnicity is a set of categories with no inherent order, making it Nominal."
+    solution_text="The transport methods are distinct categories with no logical order, making this Nominal data."
 %}
 
 {% include question_multiple_choice.html
-    id="q_finish_position"
-    title="Race Finishing Position"
-    question_text="A variable recording the finishing position in a race (e.g., 1st, 2nd, 3rd)."
+    id="q_tshirt"
+    title="T-Shirt Size"
+    question_text="A variable recording a t-shirt size (e.g., Small, Medium, Large, Extra Large)."
     options="nominal::Nominal||ordinal::Ordinal||continuous::Continuous"
     correct_answer="ordinal"
-    solution_text="Finishing positions have a clear rank (1st is better than 2nd), but the time difference between 1st and 2nd might not be the same as between 2nd and 3rd. This makes it Ordinal."
+    solution_text="The sizes have a clear, meaningful order, but the difference in measurement between 'Small' and 'Medium' isn't necessarily the same as between 'Large' and 'Extra Large'. This is Ordinal data."
 %}
 
 {% include question_multiple_choice.html
-    id="q_reaction_time"
-    title="Reaction Time"
-    question_text="A variable recording the time in milliseconds a person takes to press a button."
+    id="q_weight"
+    title="Weight of a Package"
+    question_text="A variable recording the weight of a package in kilograms."
     options="nominal::Nominal||ordinal::Ordinal||continuous::Continuous"
     correct_answer="continuous"
-    solution_text="Time is a measured numerical variable. In jamovi, this is classified as Continuous."
+    solution_text="Weight is a precise numerical measurement. In jamovi, all numerical data is classified as Continuous."
 %}
 
 {% include question_multiple_choice.html
-    id="q_postcode"
-    title="Postcode"
-    question_text="A variable recording a participant's postcode (e.g., NR4 7TJ)."
+    id="q_phone"
+    title="Mobile Phone Brand"
+    question_text="A variable recording the brand of a person's mobile phone (e.g., Apple, Samsung, Google)."
     options="nominal::Nominal||ordinal::Ordinal||continuous::Continuous"
     correct_answer="nominal"
-    solution_text="Although it contains numbers, a postcode is just a label for a location. It has no numerical value or order, so it is Nominal."
+    solution_text="Phone brands are just labels. There is no inherent ranking or order, so this is Nominal data."
 %}
 
 {% include question_multiple_choice.html
-    id="q_likert_scale"
-    title="Likert Scale Agreement"
-    question_text="A variable from a survey asking for agreement on a 5-point scale from 'Strongly Disagree' to 'Strongly Agree'."
+    id="q_injury"
+    title="Injury Severity"
+    question_text="A variable from a medical record classifying an injury as 'Mild', 'Moderate', or 'Severe'."
     options="nominal::Nominal||ordinal::Ordinal||continuous::Continuous"
     correct_answer="ordinal"
-    solution_text="The 5 points have a clear order of agreement, but we can't assume the 'distance' between 'Agree' and 'Strongly Agree' is measurable. This is classic Ordinal data."
+    solution_text="'Severe' is clearly worse than 'Moderate', so there is an order. However, the difference between the levels is not a measurable quantity. This is Ordinal data."
 %}
 
 <!-- This automatically adds the "Previous" and "Next" navigation buttons -->

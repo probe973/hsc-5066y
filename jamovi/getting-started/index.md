@@ -27,4 +27,4 @@ title: Getting to know jamovi
 <br>
 
 <!-- "Start Tutorial" button that links to the first page -->
-<a href="{{ page.url }}01-introduction/" class="btn btn-primary">Start Tutorial</a>
+<a href="{{ "/jamovi/getting-started/01-introduction.html" | relative_url }}" class="btn btn-primary">Start Tutorial</a>

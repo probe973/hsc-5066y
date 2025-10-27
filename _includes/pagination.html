@@ -1,21 +1,46 @@
-<!-- _includes/pagination.html (FINAL, SIMPLIFIED & CORRECTED) -->
-{% for page in site.pages %}
-    {% if page.url == page.url %}
-        {% assign prev_page = forloop.previous %}
-        {% assign next_page = forloop.next %}
+<!-- _includes/pagination.html -->
+
+{% comment %}
+    1.  Create a list of all tutorial pages in the current folder.
+    2.  Exclude the index page from this list.
+    3.  Sort the list by filename (so 01, 02, 03 are in order).
+{% endcomment %}
+{% assign topic_pages = site.pages
+    | where_exp: "item", "item.dir == page.dir"
+    | where_exp: "item", "item.name != 'index.md'"
+    | sort: "name" %}
+
+{% comment %}
+    4.  Loop through our sorted list to find the current page's position.
+{% endcomment %}
+{% for p in topic_pages %}
+    {% if p.url == page.url %}
+        {% assign current_page_index = forloop.index0 %}
     {% endif %}
 {% endfor %}
+
+{% comment %}
+    5.  Based on the current page's position, find the previous and next pages.
+{% endcomment %}
+{% assign prev_page_index = current_page_index | minus: 1 %}
+{% assign next_page_index = current_page_index | plus: 1 %}
+
+{% assign prev_page = topic_pages[prev_page_index] %}
+{% assign next_page = topic_pages[next_page_index] %}
+
 
 <nav class="pagination-nav">
     <!-- Previous Button (Aligned Left) -->
     <div class="pagination-prev">
-        {% if prev_page %}
+        {% comment %} 6. If the current page is not the first one, show the 'Previous' button. {% endcomment %}
+        {% if current_page_index > 0 %}
             <a href="{{ prev_page.url | relative_url }}" class="btn">&larr; Previous</a>
         {% endif %}
     </div>
 
     <!-- Next Button (Aligned Right) -->
     <div class="pagination-next">
+        {% comment %} 7. If a 'next_page' exists in the list, show the 'Next' button. {% endcomment %}
         {% if next_page %}
             <a href="{{ next_page.url | relative_url }}" class="btn">Next &rarr;</a>
         {% endif %}

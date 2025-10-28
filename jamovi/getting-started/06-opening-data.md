@@ -29,6 +29,8 @@ jamovi can open a wide variety of data files. Its own native format has the `.om
 <div class="instructions" markdown="1">
 ### Opening the Course Dataset
 
+This dataset has been created by Dr Sarah Northcott and Prof Christina Jerosch-Herold. It contains real data collected from anonymised patients with cerebrovascular accident. This is used for teaching purposes only.
+
 1.  Download the data file used for this course from your Blackboard page and save it somewhere you can easily find it.
 2.  In jamovi, click the **hamburger menu (`≡`)** in the top-left.
 3.  Select **Open**.

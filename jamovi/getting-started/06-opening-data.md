@@ -1,0 +1,39 @@
+---
+layout: default
+title: Opening and Saving Data
+---
+
+<div class="explanation" markdown="1">
+## Opening and Saving Datasets
+
+When working on a dataset, you will want to save your progress and open existing data files.
+
+All of these core functions are located in the main menu, which is accessed by clicking the **button with three horizontal lines (`≡`)** in the top-left corner of the jamovi window. This is often called the 'hamburger menu'.
+
+Inside this menu, you will find common functions that work as you would expect in most software:
+*   **Open**
+*   **Save**
+*   **Save As**
+</div>
+
+<div class="explanation" markdown="1">
+### File Formats
+
+jamovi can open a wide variety of data files. Its own native format has the `.omv` extension, but it can also open data from other programs, such as SPSS, Stata, and Microsoft Excel (`.xlsx`).
+
+**Important:** If you are opening data from an Excel file, make sure your data is formatted correctly:
+1.  The very **first row** of your spreadsheet must contain the variable names.
+2.  Each subsequent row must represent a single participant or case.
+</div>
+
+<div class="instructions" markdown="1">
+### Opening the Course Dataset
+
+1.  Download the data file used for this course from your Blackboard page and save it somewhere you can easily find it.
+2.  In jamovi, click the **hamburger menu (`≡`)** in the top-left.
+3.  Select **Open**.
+4.  Use the **Browse** button to navigate to where you saved the file, select it, and click **Open**.
+</div>
+
+<!-- This automatically adds the "Previous" and "Next" navigation buttons -->
+{% include pagination.html %}

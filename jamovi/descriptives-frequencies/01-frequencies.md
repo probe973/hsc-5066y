@@ -20,7 +20,7 @@ You are interested in finding out:
 4.  Tick the box **Frequency tables**.
 </div>
 
-![The jamovi descriptives setup panel. The variable called sex is placed in the variables box and the frequency tables button is checked]{{ "/assets/images/descriptives-frequency-table-setup.png" | relative_url }})
+![The jamovi descriptives setup panel. The variable called sex is placed in the variables box and the frequency tables button is checked]({{ "/assets/images/descriptives-frequency-table-setup.png" | relative_url }})
 
 <div class="output" markdown="1">
 ## Output
@@ -37,6 +37,15 @@ The descriptives part at the top, giving statistics such as the mean, are not re
 <div class="instructions" markdown="1">
 For the Left or Right side, either repeat the process from above or add `CVAside` to the **Variables** box.
 </div>
+
+{% include question_numerical.html
+id="q_cva_right_count"
+title="Right side CVA count"
+question_text="From the frequency table, how many of the participants had a right-side CVA?"
+correct_answer="39"
+tolerance="0"
+solution_text="Look for the number next to Right in the Counts column of the frequency table"
+%}
 
 <!-- This automatically adds the "Previous" and "Next" navigation buttons -->
 {% include pagination.html %}

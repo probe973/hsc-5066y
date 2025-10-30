@@ -20,7 +20,7 @@ You are interesting in finding out
 4.  Tick the box **Frequency tables**
 </div>
 
-<div class="output", markdown="1">
+<div class="output" markdown="1">
   ## Output
   
 The descriptives part at the top, giving statistics such as the mean, are not relevant for a nominal variable.  The table below **Frequencies** is the area of interest.

@@ -50,9 +50,9 @@ In this study, researchers wanted to investigate whether stroke patients experie
 *  The 12-item General Health Questionnaire (GHQ-12) is used to assess patients’ psychological well-being. It was scored from 0-12, with higher scores indicating greater psychological distress
   </div> 
 
-<div class="instructions" markdown="1">
+
 Explore the dataset and check that all of the variables are defined as the correct level of data
-</div>
+
 
 
 <!-- This automatically adds the "Previous" and "Next" navigation buttons -->

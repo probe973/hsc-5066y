@@ -20,6 +20,8 @@ You are interested in finding out:
 4.  Tick the box **Frequency tables**.
 </div>
 
+![The jamovi descriptives setup panel. The variable called sex is placed in the variables box and the frequency tables button is checked]{{ "/assets/images/descriptives-frequency-table-setup.png" | relative_url }})
+
 <div class="output" markdown="1">
 ## Output
   

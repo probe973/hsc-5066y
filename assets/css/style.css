@@ -111,7 +111,7 @@ main {
     line-height: 1.7;
 }
 
-/* --- Colored Section Box Styles (AAA Compliant) --- */
+/* --- Colored Section Box Styles (AAA Compliant & Corrected) --- */
 .explanation, .instructions, .output {
     padding: 1.8em;
     border-radius: 7px;
@@ -125,12 +125,12 @@ main {
 
 .instructions {
     background-color: #e3f2fd;
-    color: #2c3e50; /* THIS IS THE CORRECTED, DARKER TEXT COLOR */
+    color: #2c3e50; 
 }
 
 .output {
     background-color: #e8f5e9;
-    color: #2e7d32;
+    color: #2c3e50; /* NEW - Very dark text for high contrast (11.23:1) */
     font-family: 'Courier New', Courier, monospace;
     white-space: pre-wrap;
     word-wrap: break-word;
@@ -140,6 +140,31 @@ main {
 .explanation h1:first-child, .instructions h1:first-child, .output h1:first-child,
 .explanation h2:first-child, .instructions h2:first-child, .output h2:first-child {
     margin-top: 0;
+}
+
+/* NEW - Control spacing of paragraphs inside the output box */
+.output p {
+    margin-bottom: 0.5em; /* Reduces the large gap between lines */
+}
+
+/* NEW - Professional Styling for Tables inside the Output Box */
+.output table {
+    width: 100%;
+    border-collapse: collapse; /* Makes borders clean */
+    margin-top: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use the main site font */
+    font-size: 0.95em;
+}
+
+.output th, .output td {
+    border: 1px solid #c8e6c9; /* Light green borders to match the box */
+    padding: 10px 12px;
+    text-align: left;
+}
+
+.output th {
+    background-color: #c8e6c9; /* A slightly darker green for the header */
+    font-weight: bold;
 }
 
 /* --- Code Snippet Styles --- */

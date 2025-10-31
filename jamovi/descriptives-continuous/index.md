@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Descriptives (Continuous)
@@ -21,6 +20,7 @@ title: Descriptives (Continuous)
 You will be looking at:
 - Descriptive statistics of average, such as **mean** and **median**
 - Descriptive statistics of dispersion, such as **standard deviation**, **range**, and **inter-quartile range**
+- Descriptive statistics split by grouping variable
 - Box plots
 
 <div class="instructions" markdown="1">

@@ -42,6 +42,10 @@ You are going to use one of the added modules, namely **vijPlots**
 
 A pie chart should appear showing the relative proportions of males and females.  You can also explore some of the options below the dialog, for example adding **labels**.
 
+
+
+Repeat the process for the `CVAside` variable.
+
 </div>
 
 ![The jamovi vijplots pie chart setup panel. The variable sex is placed in the variables box, and the radio button or percent is selected from none, count, and percent.]({{ "/assets/images/vijplots-pie-chart-setup.png" | relative_url }})

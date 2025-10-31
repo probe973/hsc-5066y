@@ -76,4 +76,34 @@ tolerance="0"
 solution_text="You need to choose the column percentages and look for the % within column in the male row and left column"
 %}
 
+<div class="explanation" markdown="1">
+
+## Clustered and Stacked Bar Charts
+
+You can also show the contingency table as a bar chart.
+
+A **clustered bar chart** shows the left and right side CVA counts (or percentages) side by side for each of the sexes.
+
+A **stacked bar chart** shows the left and right side CVA counts (or percentages) stacked on top of each other, for each of the sexes.
+
+</div>
+
+<div class="instructions" markdown="1">
+
+From the **Contingency Tables** menu:
+
+*  Expand the block called **Plots**
+*  Check the box for **Bar Plot**
+
+Experiment with the following options, to see the effect on the bar chart:
+*  **Bar Type**
+*  **Y-Axis**
+*  **X-Axis**
+
+</div>
+
+<div style="text-align: center; margin-top: 3em;">
+    <a href="{{ "/jamovi/" | relative_url }}">← Return to jamovi Guides Menu</a>
+</div>
+
 {% include pagination.html %}

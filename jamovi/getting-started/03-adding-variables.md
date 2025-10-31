@@ -10,7 +10,7 @@ Before we can enter any data, we need to set up the variables.  We are going to 
 
 *   **County of residence**
 *   **Favoured hand** (1 = Left, 2 = Right)
-*   **Opinion on The Beatles** (1 = Dislike, 2 = Ambivalent, 3 = Like, 4 = Adore)
+*   **Opinion on The Beatles** (1 = Dislike, 2 = Neutral, 3 = Like, 4 = Adore)
 *   **Height** (in centimetres)
 </div>
 

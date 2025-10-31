@@ -5,6 +5,7 @@ title: Dispersions
 
 <div class="explanation" markdown="1">
 
+## Getting Descriptive Statistics
 From the data set you are going to find the following descriptive statistics for the age of participants:
 
 - Mean
@@ -45,8 +46,8 @@ You should find the following statistics about the age of the participants in th
 | Min        | 45         |
 | Max        | 86         |
 | Range      | 41         |
-| 25th %ile  | 62.3       |
-| 75th %ile  | 72         |
+| 25th percentile  | 62.3       |
+| 75th percentile  | 72         |
 | IQR        | 9.75       |
 
 </div>

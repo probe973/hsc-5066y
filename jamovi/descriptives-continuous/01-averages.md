@@ -17,7 +17,7 @@ The **mean** can be **skewed** by extreme values.  So for example, if annual wag
 £20000, £25000, £25000, £500000
 
 Then the mean would be:
-$$ \\frac{20000 + 25000 + 25000 + 500000}{4}=142500$$
+$$ \frac{20000 + 25000 + 25000 + 500000}{4}=142500 $$
 
 £142500 may not be a *good* measure of centre in this situation.
 

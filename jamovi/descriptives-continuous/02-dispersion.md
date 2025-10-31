@@ -25,7 +25,7 @@ The **percentiles** are points where that percentage of data are below this scor
 So, the **25th percentile** is the point where 25% of data are below this value and 75% are avove this value.
 The **75th percentile** is the point where 75% of data are below this value and 25% are above.
 
-The **inter-quartile range** is the difference between the middle 50% of the data.
+The **inter-quartile range** is the spread of the middle 50% of the data.
 
 </div>
 

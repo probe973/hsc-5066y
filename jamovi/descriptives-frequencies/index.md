@@ -25,7 +25,7 @@ You will be looking at:
 <div class="instructions" markdown="1">
 ### Opening the Course Dataset
 
-The dataset has been created by Dr Sarah Northcott and Prof Christina Jerosch-Herold. It contains real data collected from anonymised patients with cerebrovascular accident. This is used for teaching purposes only.
+The dataset contains real data collected from anonymised patients with cerebrovascular accident. This is used for teaching purposes only.
 
 1.  Download the data file used for this course from your Blackboard page and save it somewhere you can easily find it.
 2.  In jamovi, click the **hamburger menu (`≡`)** in the top-left.

@@ -1,7 +1,7 @@
 # _config.yml
 
 # Site Settings
-title:            HSC-5066Y Jamovi Data Exploration Course
+title:            Jamovi Data Exploration Course
 description:      An interactive course resource for students of HSC-5066Y. Focused on practical data exploration and analysis using jamovi.
 author:           UEA # <<< ENSURE THIS IS UPDATED WITH YOUR NAME/ORG
 

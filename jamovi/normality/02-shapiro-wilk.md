@@ -22,3 +22,5 @@ The **Shapiro-Wilk** test has the **null hypothesis** of "These data **are norma
 the idea that the data are normal.
 
 </div>
+
+{% include pagination.html %}

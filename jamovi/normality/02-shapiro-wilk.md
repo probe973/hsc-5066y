@@ -10,7 +10,7 @@ title: Shapiro-Wilk test
 
 ### A quick note on statistical tests
 
-A statistical test will usually follow a pattern of starting with an assumption **a null hypothesis** and testing whether there is evidence against this for an **alternative hypothesis**. You will explore this further 
+A statistical test will usually follow a pattern of starting with an assumption, **a null hypothesis**, and testing whether there is evidence against this for an **alternative hypothesis**. You will explore this further 
 when you start looking at the statistical tests section.
 
 The test generates a **test statistic** and a **p-value**.  The **p-value** is a probability, so between 0 and 1, and tells us how likely this data would occur if the null hypothesis were true.  If this is too small, 
@@ -18,7 +18,7 @@ and so unlikely, then we have evidence to **reject the null hypothesis**.  What 
 
 ### Shapiro-Wilk test
 
-The **Shapiro-Wilk** test has the **null hypothesis** of "These data **are normally distributed**.  It produces a test statistic, called *W*, and a *p*-value.  If this *p*-value is under a threshold, say 0.05, we reject 
+The **Shapiro-Wilk** test has the **null hypothesis** of "These data **are normally distributed**".  It produces a test statistic, called *W*, and a *p*-value.  If this *p*-value is under a threshold, say 0.05, we reject 
 the idea that the data are normal.
 
 </div>

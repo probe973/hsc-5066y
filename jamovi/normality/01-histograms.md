@@ -4,8 +4,7 @@ title: Histograms
 ---
 
 <div class="explanation" markdown="1">
-
-  ## Histograms
+## Histograms
   
   A **histogram** is a chart for continuous variables.  Values for the measure are put into small groups (1 to 5, 5 to 9, etc) and then bars are drawn to show how many people (or whatever the participants represent) belong to that group.
   They are useful in showing the shape of the distribution, shows where the **mode** is (or are if there are more than one) and whether there are any extreme values that may **skew** results.

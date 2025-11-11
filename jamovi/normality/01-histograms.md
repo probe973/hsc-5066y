@@ -38,3 +38,5 @@ title: Histograms
 </div>
 
  ![Side by side histograms where the first has a tail to the left, showing negative skew, and the second has a tail to the right, showing positive skew.]({{ "/assets/images/histskew.png" | relative_url }})
+
+ {% include pagination.html %}

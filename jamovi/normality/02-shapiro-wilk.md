@@ -21,6 +21,9 @@ and so unlikely, then we have evidence to **reject the null hypothesis**.  What 
 The **Shapiro-Wilk** test has the **null hypothesis** of "These data **are normally distributed**".  It produces a test statistic, called *W*, and a *p*-value.  If this *p*-value is under a threshold, say 0.05, we reject 
 the idea that the data are normal.
 
+It is worth noting that the Shapiro-Wilk test is very sensitive to small deviations from normality for large samples.  If you have a large sample, then it is worth looking at statistics for the mean and the median, and the 
+shape of the histogram, and not solely rely on the result of the Shapiro-Wilk test.
+
 </div>
 
 {% include pagination.html %}

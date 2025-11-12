@@ -92,4 +92,8 @@ Based on the ***p*-value of the Shapiro-Wilk** test, what conclusion would you d
     solution_text="p = 0.001 < 0.05, which is significant, so we reject data being assumed to be normally distributed"
 %}
 
+<div style="text-align: center; margin-top: 3em;">
+    <a href="{{ "/jamovi/" | relative_url }}">← Return to jamovi Guides Menu</a>
+</div>
+
 {% include pagination.html %}

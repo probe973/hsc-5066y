@@ -7,14 +7,14 @@ title: jamovi Chi-square
 
 ## Contingency Tables and Chi-Square Test
 
-You are going to explore whether the proportion of left to right side CVA is different based on the participant' sex.  You can also see this as testing whether CVA side is associated with a person's sex.
+You are going to explore whether the proportion of left to right side CVA is different based on the participant's sex.  You can also see this as testing whether CVA side is associated with a person's sex.
 
 </div>
 
 <div class="instructions" markdown="1">
 
 *  From the top ribbon in jamovi, click on **Frequencies**
-*  Under **Contingency Tables** chose **Independent Samples**
+*  Under **Contingency Tables** choose **Independent Samples**
 *  Place the `Sex` variable into the **Rows** box
 *  Place the `CVAside` variable into the **Columns** box
 

@@ -42,7 +42,7 @@ You are going to explore whether the proportion of left to right side CVA is dif
 
 <div class="output" markdown="1">
 
-  ## Chi-Square Output
+  ### Chi-Square Output
 
   You should see a table that shows the observed counts and percentages of left and right-side CVA for both males and females.
 
@@ -51,15 +51,21 @@ You are going to explore whether the proportion of left to right side CVA is dif
   The **$\chi^2$ test table** shows the results of the test of whether these proportions differ significantly.  You should observe that:
 
   $$\chi^2=0.175$$
+  
   $$df=1$$
+  
   $$p=0.676$$
+  
 </div>
 
 <div class="explanation" markdown="1">
 
-  ## Conclusion
+  ### Conclusion
 
   Since the *p*-value is not less than 0.05 we **can not reject the null hypothesis**, and this sample does not give evidence that the side of CVA is associated with sex of participant.
+
+  We would report the results as $\chi^2(1)=0.175, p=.676$
+  
 </div>
 
 <div style="text-align: center; margin-top: 3em;">

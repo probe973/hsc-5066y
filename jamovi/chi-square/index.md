@@ -22,11 +22,13 @@ title: Testing for Differences (Categorical Data)
 From our "Choosing a Test" guide, you will recall that the Chi-Square test is used in the following situations:
 
 **When looking for differences between groups:**
+
 | Number of Groups | Level of Measurement of Outcome | Test to Use |
 |:-----------------|:--------------------------------|:------------|
 | 2 or 2+ Groups   | Nominal                         | **Chi-Square Test of Independence** |
 
 **When looking for relationships between variables:**
+
 | Variable 1 Level | Variable 2 Level | Test to Use |
 |:-----------------|:-----------------|:------------|
 | Nominal          | Nominal          | **Chi-Square Test of Association** |

@@ -60,8 +60,10 @@ The test calculates a **Chi-Square test statistic** that quantifies this differe
 
 When you run a Chi-Square test, the output will also include a value for **degrees of freedom (df)**. Degrees of freedom represent the number of values in the analysis that are free to vary.
 
-For a Chi-Square test, the formula is simple:
+For a Chi-Square test, the formula is:
+
 $$df = (\text{Number of Rows} - 1) \times (\text{Number of Columns} - 1)$$
+
 For our 2x2 table, this would be: $df = (2 - 1) \times (2 - 1) = 1$.
 </div>
 

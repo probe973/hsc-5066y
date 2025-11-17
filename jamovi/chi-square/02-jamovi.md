@@ -34,7 +34,7 @@ You are going to explore whether the proportion of left to right side CVA is dif
 * Expand the **Plots** block
 * Tick the **Bar Plot** box
 * Experiment with changing between **Side by side** and **Stacked**
-* Experiment with changing between **Y-Axis** **Counts** and **Percentages** - **Percentages within rows** will show the same percentages as the table in the output
+* Experiment with changing between **Y-Axis** **Counts** and **Percentages** - (**Percentages within rows** will show the same percentages as the table in the output)
 
 </div>
 

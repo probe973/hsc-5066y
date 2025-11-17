@@ -21,7 +21,7 @@ These tables will guide you to the correct test for common, single-factor resear
 
 Use this table when you are comparing scores from two or more separate, independent groups (e.g., comparing an experimental group to a control group).
 
-| Number of Groups | Level of Measurement of Outcome | Is the Data Normally Distributed? | Test to Use |
+| Number of Groups | Level of Measurement of Outcome | Are the Data Normally Distributed? | Test to Use |
 |:-----------------|:--------------------------------|:----------------------------------|:------------|
 | 2 Groups         | Nominal                         | (Not Applicable)                  | **Chi-Square Test of Independence** |
 | 2 Groups         | Ordinal                         | (Not Applicable)                  | **Mann-Whitney U Test** |
@@ -38,7 +38,7 @@ Use this table when you are comparing scores from two or more separate, independ
 
 Use this table when you are measuring the same group of participants at different times or under different conditions (repeated measures).
 
-| Number of Conditions/Time Points | Level of Measurement of Outcome | Is the Data Normally Distributed? | Test to Use |
+| Number of Conditions/Time Points | Level of Measurement of Outcome | Are the Data Normally Distributed? | Test to Use |
 |:---------------------------------|:--------------------------------|:----------------------------------|:------------|
 | 2 Conditions                     | Nominal                         | (Not Applicable)                  | **McNemar's Test** |
 | 2 Conditions                     | Ordinal                         | (Not Applicable)                  | **Wilcoxon Signed-Rank Test** |

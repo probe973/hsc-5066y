@@ -74,7 +74,7 @@ A standard way to report this would be:
 
 > "There was a significant association between the type of physiotherapy received and patient outcome, $\chi^2$(1) = 4.80, *p* = .03. A higher proportion of patients in the 'New Technique' group showed improvement (75%) compared to the 'Standard Technique' group (50%)."
 
-The format `$\chi^2$(1) = 4.80` represents the Chi-Square symbol, the degrees of freedom in the brackets, and the calculated test statistic value.
+The format `$\chi^2$(1) = 4.80$` represents the Chi-Square symbol, the degrees of freedom in the brackets, and the calculated test statistic value.
 </div>
 
 

@@ -15,7 +15,7 @@ Suppose you want to split the left and right side CVA by the different sexes.  Y
 <div class="instructions" markdown="1">
 
 *  From the top ribbon in jamovi, click on **Frequencies**
-*  Under **Contingency Tables** chose **Independent Samples**
+*  Under **Contingency Tables** choose **Independent Samples**
 *  Place the `Sex` variable into the **Rows** box
 *  Place the `CVAside` variable into the **Columns** box
 

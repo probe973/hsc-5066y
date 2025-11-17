@@ -21,7 +21,7 @@ title: Testing for Differences (Independent Groups)
 
 From our "Choosing a Test" guide, the tests for comparing two independent groups are:
 
-| Level of Measurement of Outcome | Is the Data Normally Distributed? | Test to Use |
+| Level of Measurement of Outcome | Are the Data Normally Distributed? | Test to Use |
 |:--------------------------------|:----------------------------------|:------------|
 | Continuous (Interval/Ratio)     | Yes                               | **Independent Samples t-test** |
 | Continuous (Interval/Ratio)     | No                                | **Mann-Whitney U Test** |

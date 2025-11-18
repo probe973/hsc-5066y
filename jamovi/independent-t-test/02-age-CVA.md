@@ -113,7 +113,7 @@ The **effect size** is a measure of how big the difference is between the two gr
 
 An independent-samples t-test was conducted to assess whether there was a difference in age of participants with left CVA (Mean = 70.0, SD = 8.81) compared to right CVA 
 (Mean = 66.4, SD = 8.25).  Homogeneity of variances was assessed by the Levene's test and was found not to be violated.  There was a small but not significant difference found 
-between the groups ($t(48) = 1.26$, $p = 0.215$, $d = 0.429$, mean difference = 3.59, 95\% confidence interval [-2.16, 9.34]).
+between the groups ($t(48) = 1.26$, $p = 0.215$, $d = 0.429$, mean difference = 3.59, 95% confidence interval [-2.16, 9.34]).
 
 </div>
 

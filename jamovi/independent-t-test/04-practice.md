@@ -5,7 +5,7 @@ title: jamovi Practice
 
 ## Comparing Scores Between Two Groups
 
-In these data you have ARAT, Barthel. FAST, and GHQ12 at baseline and follow-up.  You also have the sex and the side of CVA has grouping variables, containing two groups.
+In these data you have ARAT, Barthel. FAST, and GHQ12 at baseline and follow-up.  You also have the sex and the side of CVA as grouping variables, containing two groups.
 
 Perform a series of tests of difference on these variables and for a grouping variable.  You need to choose between the **Student's t-test**, **Welch t-test**, and **Mann-Whitney U test**. So,
 

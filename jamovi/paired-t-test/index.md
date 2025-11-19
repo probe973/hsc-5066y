@@ -29,13 +29,15 @@ For comparing two repeated measures on the same group, the choice is between the
 | Continuous (Interval/Ratio)     | Yes                               | **Paired Samples t-test** |
 | Continuous (Interval/Ratio)     | No                                | **Wilcoxon Signed-Rank Test** |
 
+</div>
+
 ### Topics in this Section
 
 *   Determining the correct test (Paired t-test vs. Wilcoxon)
 *   Paired Samples t-test
 *   Wilcoxon Signed-Rank Test
 
-</div>
+
 <br>
 
 <!-- "Start Tutorial" button that links to the first page -->

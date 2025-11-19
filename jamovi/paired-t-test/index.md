@@ -21,6 +21,7 @@ title: Testing for Differences (Within Groups)
 
 For comparing two repeated measures on the same group, the choice is between the Paired Samples t-test and the Wilcoxon Signed-Rank Test. The decision depends on the level of data and the normality of the difference scores.
 
+
 | Level of Measurement of Outcome | Is the Data Normally Distributed? | Test to Use |
 |:--------------------------------|:----------------------------------|:------------|
 | Continuous (Interval/Ratio)     | Yes                               | **Paired Samples t-test** |

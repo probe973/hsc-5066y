@@ -1,6 +1,6 @@
 ---
 layout: default
-title: jamovi Paired t-test
+title: jamovi Wilcoxon
 ---
 
 <div class="explanation" markdown="1">

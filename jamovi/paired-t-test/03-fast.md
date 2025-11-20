@@ -5,11 +5,11 @@ title: jamovi Paired t-test
 
 <div class="explanation" markdown="1">
 
-## GHQ12 After 3-month course compared to baseline
+## FAST After 3-month course compared to baseline
 
 The Frenchay Aphasia Screen Test (FAST) assesses whether patients may have a language deficit. It is scored from 0-30, with higher scores indicating better performance
 
-You are interested in whether there has been a significant change in GHQ-12 scores after the 3-month course.
+You are interested in whether there has been a significant change in FAST scores after the 3-month course.
 
 Since each participant is measured on two occasions, this is a **paired** type of test.
 

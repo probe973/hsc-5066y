@@ -41,4 +41,4 @@ For comparing two continuous variables, you will use a **correlation coefficient
 <br>
 
 <!-- "Start Tutorial" button that links to the first page -->
-<a href="{{ "/jamovi/paired-t-test/01-scatter-diagrams.html" | relative_url }}" class="btn btn-primary">Start Tutorial</a>
+<a href="{{ "/jamovi/correlation/01-scatter-diagrams.html" | relative_url }}" class="btn btn-primary">Start Tutorial</a>

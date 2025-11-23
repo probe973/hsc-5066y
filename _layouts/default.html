@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - Jamovi Course</title>
+    <title>{{ page.title }} - LET & Software Course</title>
     <!-- Corrected link using relative_url -->
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
     <link rel="icon" type="image/png" href="{{ "/assets/images/favicon.ico" | relative_url }}">
@@ -25,8 +25,8 @@
 </head>
 <body>
     <header>
-        <h1>{{ site.title | default: "Jamovi Data Exploration Course" }}</h1>
-        <p>{{ site.description | default: "An interactive course for exploring datasets with jamovi." }}</p>
+        <h1>{{ site.title | default: "Evidence Based Practice" }}</h1>
+        <p>{{ site.description | default: "An interactive course for exploring datasets with software." }}</p>
     </header>
 
     <nav>
@@ -34,6 +34,7 @@
             <!-- CORRECTED: Navigation links now use relative_url to point to the right place -->
             <li><a href="{{ "/" | relative_url }}">Home</a></li>
             <li><a href="{{ "/jamovi/" | relative_url }}">jamovi Guides</a></li>
+            <li><a href="{{ "/spss/" | relative_url }}">SPSS Guides</a></li>
             <li><a href="{{ "/let/" | relative_url }}">LET Workshops</a></li>
         </ul>
     </nav>

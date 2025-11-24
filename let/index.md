@@ -12,11 +12,11 @@ Here you will find workshops being delivered by the LET, with questions and solu
 <div class="card-menu">
 
     <!-- Card 1: Distributions (Summary Statistics and Shape) -->
-    <!-- Icon: A bell curve with a central measure, representing summary and shape. -->
+    <!-- ICON: A classic Bell Curve (normal distribution), representing distribution and shape. -->
     <a href="{{ "/let/distributions/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-6-6h12" /></svg>
             </div>
             <div class="card-text">
                 <h3>Distributions</h3>
@@ -26,7 +26,7 @@ Here you will find workshops being delivered by the LET, with questions and solu
     </a>
 
     <!-- Card 2: Study Design -->
-    <!-- Icon: A clipboard/checklist, representing planning and methodological checks. -->
+    <!-- ICON: A clipboard/document with a checkmark, representing planning and methodical checks. -->
     <a href="{{ "/let/study-design/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
@@ -40,7 +40,7 @@ Here you will find workshops being delivered by the LET, with questions and solu
     </a>
 
     <!-- Card 3: Reliability Coefficients -->
-    <!-- Icon: A line graph with a point, representing consistency and measurement quality. -->
+    <!-- ICON: A line graph with two points, representing measuring something at two different times/points (consistency). -->
     <a href="{{ "/let/reliability/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
@@ -54,7 +54,7 @@ Here you will find workshops being delivered by the LET, with questions and solu
     </a>
     
     <!-- Card 4: Reading Inferential Tables -->
-    <!-- Icon: A document/table with a magnifying glass, representing interpreting complex output. -->
+    <!-- ICON: A document with a magnifying glass, representing interpretation and close reading. -->
     <a href="{{ "/let/reading-tables/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
@@ -68,7 +68,7 @@ Here you will find workshops being delivered by the LET, with questions and solu
     </a>
 
     <!-- Card 5: Software Review -->
-    <!-- Icon: A lightbulb over a computer screen, representing practice and new understanding. -->
+    <!-- ICON: A computer screen with a 'play/start' arrow, representing practice and review. -->
     <a href="{{ "/let/software-review/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">

@@ -166,33 +166,38 @@ Summary statistics are provided for three sets of data:
 
 ### Question 5: Interpreting Histograms
 
-Consider the following histograms:
+Consider the following histograms and statistics:
 
+![A 2 by 2 grid of histograms.  Top left has symettry and is centred around 30.  Top right has symettry, but less spread than others, and is centred around 50.  Bottom left has symettry and is centred around 50.  Bottom right has a tail to the left and is centred around 50.  In the same order the diagrams are labelled A, B, C, and D.]({{ "/assets/images/let/histogram_match.png" | relative_url }})
+
+Set 1
 | Mean | 49.2 |
 |:----|:----|
 | Median | 50 |
 | Standard Deviation | 10.5 |
 | Skew | -0.64 |
 
+Set 2
 | Mean | 29.9 |
 |:----|:----|
 | Median | 30 |
 | Standard Deviation | 11.4 |
 | Skew | 0 |
 
+Set 3
 | Mean | 50 |
 |:----|:----|
 | Median | 50 |
 | Standard Deviation | 5.7 |
 | Skew | 0 |
 
+Set 4
 | Mean | 49.9 |
 |:----|:----|
 | Median | 50 |
 | Standard Deviation | 11.4 |
 | Skew | 0 |
 
-*(You will need to insert the 4 images of histograms here.)*
 
 {% include question_dropdown.html
     id="q5_match"
@@ -200,14 +205,14 @@ Consider the following histograms:
     question_text="Match each of the histograms to one of the sets of statistics provided above."
     solution_text="
 **Analysis and Matching:**
-1.  **Look at Mean/Median/Skew:** One set of data has a Mean of 29.9 and a Median of 30. This is significantly lower than the other sets (which are near 50). This must be the histogram that is clustered far to the **left** of the others on the horizontal axis.
-2.  **Look at Skew:** One set has a Skew of -0.64. This indicates a **Negative Skew (Skewed Left)**. This must be the histogram with the long tail extending to the left.
+1.  **Look at Mean/Median/Skew:** One set of data has a Mean of 29.9 and a Median of 30. This is significantly lower than the other sets (which are near 50). This must be the histogram that is clustered more to to the **left** of the others on the horizontal axis, histogram A.
+2.  **Look at Skew:** One set has a Skew of -0.64. This indicates a **Negative Skew (Skewed Left)**. This must be the histogram with the long tail extending to the left, histogram D.
 3.  **Look at Standard Deviation (Dispersion):** Two remaining sets are symmetrical (Skew=0). One has a low SD (5.7) and one has a high SD (11.4). The low SD set must match the histogram that is the **least dispersed**. The high SD set must match the histogram that is the **most spread out**.
 
 **Solution:**
-*   **Histogram Furthest Left (Low Avg):** Matches Mean = 29.9, Median = 30.
-*   **Histogram with Left Tail (Negative Skew):** Matches Mean = 49.2, Skew = -0.64.
-*   **Histogram Thinnest (Low SD):** Matches Mean = 50, SD = 5.7.
-*   **Histogram Flattest (High SD):** Matches Mean = 49.9, SD = 11.4.
+*   **Histogram A** Matches Mean = 29.9, Median = 30, **Set 2**.
+*   **Histogram B** Matches Mean = 50, SD = 5.7 **Set 3**.
+*   **Histogram C:** Matches Mean = 49.4, SD = 11.4 **Set 4**
+*   **Histogram D:** Matches SKew = -0.64 **Set 1**.
 "
 %}

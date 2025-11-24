@@ -30,7 +30,14 @@ Here you will find workshops being delivered by the LET, with questions and solu
     <a href="{{ "/let/study-design/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-8.25A3.375 3.375 0 0 0 4.5 11.625v2.625c0 3.86 3.14 7 7 7h1.5a.75.75 0 0 0 .75-.75V19.5a2.25 2.25 0 0 0-2.25-2.25h-1.5M19.5 14.25h-2.625c-.64 0-1.25.26-1.7.72-.51.52-1.02.52-1.53.01L10.5 11.25l-2.67-2.67a1.5 1.5 0 0 0-2.12 0L4.5 11.25M19.5 14.25V5.25a2.25 2.25 0 0 0-2.25-2.25h-10.5A2.25 2.25 0 0 0 4.5 5.25v9.5" /></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M16 4.00195C18.175 4.01406 19.3529 4.11051 20.1213 4.87889C21 5.75757 21 7.17179 21 10.0002V16.0002C21 18.8286 21 20.2429 20.1213 21.1215C19.2426 22.0002 17.8284 22.0002 15 22.0002H9C6.17157 22.0002 4.75736 22.0002 3.87868 21.1215C3 20.2429 3 18.8286 3 16.0002V10.0002C3 7.17179 3 5.75757 3.87868 4.87889C4.64706 4.11051 5.82497 4.01406 8 4.00195" />
+    <path d="M8 14H16" stroke-linecap="round"/>
+    <path d="M7 10.5H17" stroke-linecap="round"/>
+    <path d="M9 17.5H15" stroke-linecap="round"/>
+    <path d="M8 3.5C8 2.67157 8.67157 2 9.5 2H14.5C15.3284 2 16 2.67157 16 3.5V4.5C16 5.32843 15.3284 6 14.5 6H9.5C8.67157 6 8 5.32843 8 4.5V3.5Z" />
+</svg>
+                
             </div>
             <div class="card-text">
                 <h3>Study Design</h3>
@@ -44,7 +51,11 @@ Here you will find workshops being delivered by the LET, with questions and solu
     <a href="{{ "/let/reliability/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M7 10.5h10.5M7 14.5h10.5M7 18.5h10.5M3 10.5v10.5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V10.5M3 3h18M12 3v7.5" /></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M2 12L5 12M22 12L19 12M14 12L10 12" stroke-linecap="round"/>
+    <path d="M7.5 5C6.56538 5 6.09808 5 5.75 5.20096C5.52197 5.33261 5.33261 5.52197 5.20096 5.75C5 6.09808 5 6.56538 5 7.5L5 16.5C5 17.4346 5 17.9019 5.20096 18.25C5.33261 18.478 5.52197 18.6674 5.75 18.799C6.09808 19 6.56538 19 7.5 19C8.43462 19 8.90192 19 9.25 18.799C9.47803 18.6674 9.66739 18.478 9.79904 18.25C10 17.9019 10 17.4346 10 16.5L10 7.5C10 6.56538 10 6.09808 9.79904 5.75C9.66739 5.52197 9.47803 5.33261 9.25 5.20096C8.90192 5 8.43462 5 7.5 5Z" />
+    <path d="M16.5 7C15.5654 7 15.0981 7 14.75 7.20096C14.522 7.33261 14.3326 7.52197 14.201 7.75C14 8.09808 14 8.56538 14 9.5L14 14.5C14 15.4346 14 15.9019 14.201 16.25C14.3326 16.478 14.522 16.6674 14.75 16.799C15.0981 17 15.5654 17 16.5 17C17.4346 17 17.9019 17 18.25 16.799C18.478 16.6674 18.6674 16.478 18.799 16.25C19 15.9019 19 15.4346 19 14.5V9.5C19 8.56538 19 8.09808 18.799 7.75C18.6674 7.52197 18.478 7.33261 18.25 7.20096C17.9019 7 17.4346 7 16.5 7Z" />
+</svg>
             </div>
             <div class="card-text">
                 <h3>Reliability Coefficients</h3>
@@ -58,7 +69,31 @@ Here you will find workshops being delivered by the LET, with questions and solu
     <a href="{{ "/let/reading-tables/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" /></svg>
+                <svg viewBox="0 0 60 60" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<g>
+	<g>
+		<path d="M60,13c0-0.1,0-0.2-0.1-0.3v-0.1c-0.1-0.1-0.1-0.2-0.2-0.3l-12-12c-0.1-0.1-0.2-0.1-0.3-0.2h-0.1C47.2,0.1,47.1,0,47,0
+			l0,0H1C0.4,0,0,0.4,0,1v59h2V2h44v11c0,0.6,0.4,1,1,1h11v46h2V13L60,13z M48,12V3.4l8.6,8.6H48z"/>
+		<path d="M49,27c0-0.6-0.4-1-1-1h-8c-0.6,0-1,0.4-1,1v29h-3V38c0-0.6-0.4-1-1-1h-8c-0.6,0-1,0.4-1,1v18h-3V33c0-0.6-0.4-1-1-1h-8
+			c-0.6,0-1,0.4-1,1v23H8V20H6v37c0,0.6,0.4,1,1,1h7h8h5h8h5h8h6v-2h-5V27z M47,28v3h-6v-3H47z M34,39v3h-6v-3H34z M21,34v3h-6v-3
+			H21z M15,56V39h6v17H15z M28,56V44h6v12H28z M41,56V33h6v23H41z"/>
+		<rect x="6" y="5" width="10" height="2"/>
+		<rect x="6" y="9" width="16" height="2"/>
+		<rect x="6" y="13" width="2" height="2"/>
+		<rect x="10" y="13" width="2" height="2"/>
+		<rect x="14" y="13" width="2" height="2"/>
+		<rect x="13" y="22" width="2" height="2"/>
+		<rect x="13" y="26" width="10" height="2"/>
+		<rect x="17" y="22" width="2" height="2"/>
+		<rect x="26" y="27" width="2" height="2"/>
+		<rect x="26" y="31" width="10" height="2"/>
+		<rect x="30" y="27" width="2" height="2"/>
+		<rect x="39" y="16" width="2" height="2"/>
+		<rect x="39" y="20" width="10" height="2"/>
+		<rect x="43" y="16" width="2" height="2"/>
+	</g>
+</g>
+</svg>
             </div>
             <div class="card-text">
                 <h3>Reading Inferential Tables</h3>
@@ -72,7 +107,7 @@ Here you will find workshops being delivered by the LET, with questions and solu
     <a href="{{ "/let/software-review/" | relative_url }}" class="card">
         <div class="card-content">
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 14.25L12 16.5M12 16.5L13.5 14.25M12 16.5V19.5M17.25 10.5V6.75A2.25 2.25 0 0 0 15 4.5H9A2.25 2.25 0 0 0 6.75 6.75v3.75m10.5 0H6.75" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/></svg>
             </div>
             <div class="card-text">
                 <h3>Software Review</h3>

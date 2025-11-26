@@ -11,7 +11,7 @@ This workshop focuses on working with measures of reliability.
 
 ---
 
-1. A blood pressure machine is used to record patients’ systolic blood pressure.  A few minutes later a second reading is taken by the same machine.  The results for 12 patients are shown
+A blood pressure machine is used to record patients’ systolic blood pressure.  A few minutes later a second reading is taken by the same machine.  The results for 12 patients are shown
 
 | Patient | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -45,7 +45,9 @@ This workshop focuses on working with measures of reliability.
     solution_text="ICC values of greater than 0.9 indicate excellent reliability.  This is a much better and more reliable machine than the first."
 %}
 
-2. Trained health care workers assess the mobility of recovering road traffic accident patients using a new index.  5 healthcare workers all assess the same 25 patients using the scale.  An intraclass correlation coefficient (ICC) is calculated to assess the inter-rater reliability of the scale and produces ICC = 0.76.
+---
+
+Trained health care workers assess the mobility of recovering road traffic accident patients using a new index.  5 healthcare workers all assess the same 25 patients using the scale.  An intraclass correlation coefficient (ICC) is calculated to assess the inter-rater reliability of the scale and produces ICC = 0.76.
 
 {% include question_multiple_choice.html
     id="reliability2"
@@ -56,7 +58,9 @@ This workshop focuses on working with measures of reliability.
     solution_text="ICC values between 0.7 and 0.8 indicate good reliability.  This means that the 5 healthcare workers are in good agreement on the mobility of their patients."
 %}
 
-3. To assess a patient’s memory skills, the patient is graded on scale of 1 to 10 on 5 different assessments.  From these 5 assessments a memory skill index is produced for the patient by summing the individual scores.
+---
+
+To assess a patient’s memory skills, the patient is graded on scale of 1 to 10 on 5 different assessments.  From these 5 assessments a memory skill index is produced for the patient by summing the individual scores.
 
 {% include question_dropdown.html
     id="reliability3a"

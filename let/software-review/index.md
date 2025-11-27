@@ -204,7 +204,7 @@ Analyses → Regression → Correlation Matrix
 
 ### Reliability of Measures
 
-The **knobbly knees** measurement is calculated from 4 sub measures (`k1` to `k4').
+The **knobbly knees** measurement is calculated from 4 sub measures (`k1` to `k4`).
 
 A **Cronbach alpha** of the 4 measurements is found to be $\alpha = 0.913$.
 
@@ -269,11 +269,13 @@ You will also need to check the **homogeneity of variances** using a variance te
 ### SPSS starting point
 
 Analyze →  Compare Means → Independent-samples T test
+
 Remember also to use the **Define Groups** button and enter **0** and **1** in as the groups
 
 ### jamovi starting point
 
 Analyses → T-Tests → Independent Samples T-Test
+
 Ensure that the **Homogeneity Test** is checked
 
 </div>

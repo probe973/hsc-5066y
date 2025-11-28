@@ -335,7 +335,7 @@ You are now going to carry out an independent-samples t-test or Mann-Whitney U t
     id="sw_postcnh_t"
     title="Conclusion Post Treatment"
     question_text="Use the software to perform the correct test, and write up the result."
-    solution_text="Both groups were found to be normally distributed, using the Shapiro-Wilk test, for the Post CNH readings.  Homogeneity of variances was also established using the Levene test. An independent-samples t-test was therefore used to determine whether there was a significant difference in CNH for those you received treament (n=70, Mean = 25.3, SD = 8.78) and for those that did not (n = 80, Mean = 27.4, SD = 7.64). There was a small (using Cohen's d guidelines of small, moderate, large of 0.2, 0.5, and 0.8) and not significant difference in the CNH readings between the groups (Mean difference = 2.07, $t(148)=1.55, p=0.124, d=0.25)."
+    solution_text="Both groups were found to be normally distributed, using the Shapiro-Wilk test, for the Post CNH readings.  Homogeneity of variances was also established using the Levene test. An independent-samples t-test was therefore used to determine whether there was a significant difference in CNH for those you received treament (n=70, Mean = 25.3, SD = 8.78) and for those that did not (n = 80, Mean = 27.4, SD = 7.64). There was a small (using Cohen's d guidelines of small, moderate, large of 0.2, 0.5, and 0.8) and not significant difference in the CNH readings between the groups (Mean difference = 2.07, $t(148)=1.55, p=0.124, d=0.25$)."
 %}
 
 ---

@@ -324,7 +324,7 @@ Using the correct **independent-samples t-test** (either Student's - equal varia
     id="sw_precnh_con"
     title="Conclusion"
     question_text="Is there evidence that the treatment group and non-treatment group are significantly different at the baseline (pre) reading on CNH?"
-    options="no::the p-value is greater than 0.05, so there is not enough evidence that the groups differ at baseline||yes::the p-value is smaller than 0.05, so there is evidence of a difference between the groups at baseline*
+    options="no::the p-value is greater than 0.05, so there is not enough evidence that the groups differ at baseline||yes::the p-value is smaller than 0.05, so there is evidence of a difference between the groups at baseline"
     correct_answer="no"
     solution_text="p-value is above the 0.05 threshold, not enough evidence to say the two groups are different from one another."
 %}

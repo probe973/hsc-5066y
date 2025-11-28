@@ -259,7 +259,7 @@ The following statistics are derived from the `PreCNH` variable:
     solution_text="Both p-values are above the 0.05 threshold."
 %}
 
-You are going to use an **indepedendent-samples t-test** to determine whether there is a significant difference between the treatment and the non-treatment group at the pre experiment stage.
+You are going to use an **indepedendent-samples t-test** to determine whether there is a significant difference between the treatment and the non-treatment group at the pre-experiment stage.
 
 You will also need to check the **homogeneity of variances** using a variance test such as the **Levene test**.
 
@@ -280,3 +280,66 @@ Ensure that the **Homogeneity Test** is checked
 
 </div>
 
+A small p-value (less than 0.05) in the **Levene test** would suggest a violation of the homogeneity of variances assumption.
+
+{% include question_multiple_choice.html
+    id="sw_precnh_lev"
+    title="Homogeneity of variances"
+    question_text="Is the p-value for the Levene test significant?"
+    options="no::the p-value is greater than 0.05, so **equal variances can be assumed**, use **Student's t**||yes::the p-value is smaller than 0.05, so **equal variances can not be assumed**, use **Welch's t**"
+    correct_answer="no"
+    solution_text="p-value is above the 0.05 threshold, assume equal variances."
+%}
+
+Using the correct **independent-samples t-test** (either Student's - equal variances assumed or Welch's - equal variances no assumed):
+
+{% include question_numerical.html
+    id="sw_precnh_t"
+    title="t-statistic"
+    question_text="What is value of t-statistic, correct to 2 decimal places.  (*If you have a negative t-statistic, plese **only give the positive value** in the answer box*)"
+    correct_answer="0.05"
+    tolerance="0.05"
+    solution_text="Equal variances assumed, gives a $t=0.0534$"
+%}
+
+{% include question_numerical.html
+    id="sw_precnh_df"
+    title="Degrees of freedom"
+    question_text="How many degrees of freedom are there?"
+    correct_answer="148"
+    tolerance="0.05"
+    solution_text="$df=148$, equal variances assumed"
+%}
+
+{% include question_numerical.html
+    id="sw_precnh_p"
+    title="p-value"
+    question_text="What is the p-value of the independent-samples t-test?  Give your answer to 3 decimal places."
+    correct_answer="0.958"
+    tolerance="0.005"
+    solution_text="Equal variances assumed, gives a $p=0.958$"
+%}
+
+{% include question_multiple_choice.html
+    id="sw_precnh_con"
+    title="Conclusion"
+    question_text="Is there evidence that the treatment group and non-treatment group are significantly different at the baseline (pre) reading on CNH?"
+    options="no::the p-value is greater than 0.05, so **there is not enough evidence that the groups differ at baseline**||yes::the p-value is smaller than 0.05, so **there is evidence of a difference between the groups at baseline**"
+    correct_answer="no"
+    solution_text="p-value is above the 0.05 threshold, not enough evidence to say the two groups are different from one another."
+%}
+
+You are now going to carry out an **independent-samples t-test** or **Mann-Whitney U test** (depending on whether both groups are normally distributed) for the CNH readings after the treatment period `PostCNH`.
+
+{% include question_dropdown.html
+    id="sw_postcnh_t"
+    title="Conclusion Post Treatment"
+    question_text="Use the software to perform the correct test, and write up the result."
+    solution_text="Both groups were found to be normally distributed, using the Shapiro-Wilk test, for the Post CNH readings.  Homogeneity of variances was also established using the Levene test.
+    
+    An independent-samples t-test was therefore used to determine whether there was a significant difference in CNH for those you received treament (n=70, Mean = 25.3, SD = 8.78) and for those that did not (n = 80, Mean = 27.4, SD = 7.64). There was a small (using Cohen's d guidelines of small, moderate, large of 0.2, 0.5, and 0.8) and not significant difference in the CNH readings between the groups (Mean difference = 2.07, $t(148)=1.55, p=0.124, d=0.25)."
+%}
+
+---
+
+### End of the workshop

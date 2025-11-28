@@ -18,9 +18,7 @@ Throughout these materials, you will find explanations, step-by-step jamovi inst
         <div class="card-content">
             <!-- SVG Icon for jamovi Guides -->
             <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><defs>
-                    <style>.cls-1{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="cls-1" d="M40.5,5.5H7.5a2,2,0,0,0-2,2v33a2,2,0,0,0,2,2h33a2,2,0,0,0,2-2V7.5A2,2,0,0,0,40.5,5.5Z"/><path class="cls-1" d="M17.26,10.5H30.74V30.75A6.75,6.75,0,0,1,24,37.5h0a6.75,6.75,0,0,1-6.74-6.75V28.51"/>
-                </svg>
+            <svg width="800px" height="800px" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="Layer_2" data-name="Layer 2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="cls-1" d="M40.5,5.5H7.5a2,2,0,0,0-2,2v33a2,2,0,0,0,2,2h33a2,2,0,0,0,2-2V7.5A2,2,0,0,0,40.5,5.5Z"/><path class="cls-1" d="M17.26,10.5H30.74V30.75A6.75,6.75,0,0,1,24,37.5h0a6.75,6.75,0,0,1-6.74-6.75V28.51"/></svg>
             </div>
             <div class="card-text">
                 <h3>jamovi Guides</h3>

@@ -26,4 +26,4 @@ You will be looking at:
 <br>
 
 <!-- "Start Tutorial" button that links to the first page -->
-<a href="{{ "/jamovi/descriptives-continuous/01-averages.html" | relative_url }}" class="btn btn-primary">Start Tutorial</a>
+<a href="{{ "/spss/descriptives-continuous/01-averages.html" | relative_url }}" class="btn btn-primary">Start Tutorial</a>

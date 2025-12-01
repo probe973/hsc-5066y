@@ -82,7 +82,7 @@ For the following variables, how would you classify them in SPSS?
     question_text="A variable recording the weight of a package in kilograms."
     options="nominal::Nominal||ordinal::Ordinal||continuous::Scale"
     correct_answer="continuous"
-    solution_text="Weight is a precise numerical measurement. In SPSS, all numerical data is classified as Continuous."
+    solution_text="Weight is a precise numerical measurement. In SPSS, all numerical data is classified as Scale."
 %}
 
 {% include question_multiple_choice.html

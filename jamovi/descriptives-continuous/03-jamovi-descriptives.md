@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dispersions
+title: jamovi Descriptives
 ---
 
 <div class="explanation" markdown="1">

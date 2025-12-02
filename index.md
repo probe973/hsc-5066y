@@ -6,7 +6,7 @@ title: Home
 <div class="explanation" markdown="1">
 # Evidence Based Practice 2
 
-Welcome to the interactive resource for HSC-5066Y. This site provides structured guidance and practical exercises to enhance your understanding and application of evidence-based practice, with a focus on data exploration and analysis using jamovi.
+Welcome to the interactive resource for HSC-5066Y. This site provides structured guidance and practical exercises to enhance your understanding and application of evidence-based practice.
 
 Throughout these materials, you will find explanations, step-by-step software instructions, and examples of software output to help you navigate your learning journey. There is also included various question formats to test your understanding as you go along.
 

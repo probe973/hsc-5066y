@@ -93,7 +93,7 @@ Based on the ***p*-value of the Shapiro-Wilk** test, what conclusion would you d
 %}
 
 <div style="text-align: center; margin-top: 3em;">
-    <a href="{{ "/spss/" | relative_url }}">← Return to jamovi Guides Menu</a>
+    <a href="{{ "/spss/" | relative_url }}">← Return to SPSS Guides Menu</a>
 </div>
 
 {% include pagination.html %}

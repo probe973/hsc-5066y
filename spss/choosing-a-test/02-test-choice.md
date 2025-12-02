@@ -118,7 +118,7 @@ For the following research scenarios, which is the most appropriate statistical 
 
 <!-- This is the link back to the main jamovi guides page -->
 <div style="text-align: center; margin-top: 3em;">
-    <a href="{{ "/spss/" | relative_url }}">← Return to jamovi Guides Menu</a>
+    <a href="{{ "/spss/" | relative_url }}">← Return to SPSS Guides Menu</a>
 </div>
 
 {% include pagination.html %}

@@ -8,7 +8,7 @@ title: Home
 
 Welcome to the interactive resource for HSC-5066Y. This site provides structured guidance and practical exercises to enhance your understanding and application of evidence-based practice, with a focus on data exploration and analysis using jamovi.
 
-Throughout these materials, you will find explanations, step-by-step jamovi instructions, and examples of jamovi output to help you navigate your learning journey. We've also included various question formats to test your understanding as you go along.
+Throughout these materials, you will find explanations, step-by-step software instructions, and examples of software output to help you navigate your learning journey. There is also included various question formats to test your understanding as you go along.
 
 </div>
 
@@ -16,13 +16,7 @@ Throughout these materials, you will find explanations, step-by-step jamovi inst
 <div class="card-menu">
     <a href="{{ "/jamovi/" | relative_url }}" class="card">
         <div class="card-content">
-            <!-- SVG Icon for jamovi Guides -->
-            <div class="card-icon">
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M 50 15 L 50 75 C 50 90 35 90 35 75" />
-    <circle cx="50" cy="15" r="5" fill="currentColor" stroke="none" />
-</svg>
-            </div>
+            <!-- ICON REMOVED -->
             <div class="card-text">
                 <h3>jamovi Guides</h3>
                 <p>Access the course guides for using the jamovi statistical software.</p>
@@ -31,12 +25,7 @@ Throughout these materials, you will find explanations, step-by-step jamovi inst
     </a>
     <a href="{{ "/spss/" | relative_url }}" class="card">
         <div class="card-content">
-            <!-- SVG Icon for SPSS Guides -->
-            <div class="card-icon">
-            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M 75 25 A 25 25 0 0 0 50 10 A 25 25 0 0 0 25 35 L 75 65 A 25 25 0 0 1 50 90 A 25 25 0 0 1 25 65" />
-</svg>
-            </div>
+            <!-- ICON REMOVED -->
             <div class="card-text">
                 <h3>SPSS Guides</h3>
                 <p>Access the course guides for using the SPSS statistical software.</p>
@@ -45,12 +34,7 @@ Throughout these materials, you will find explanations, step-by-step jamovi inst
     </a>   
     <a href="{{ "/let/" | relative_url }}" class="card">
         <div class="card-content">
-            <!-- SVG Icon for LET Workshops -->
-            <div class="card-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-1.621-1.621A3 3 0 0 1 14.121 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25A2.25 2.25 0 0 1 5.25 3h13.5A2.25 2.25 0 0 1 21 5.25Z" />
-                </svg>
-            </div>
+            <!-- ICON REMOVED -->
             <div class="card-text">
                 <h3>LET Workshops</h3>
                 <p>Find materials and resources from the Learning Enhancement Team workshops.</p>

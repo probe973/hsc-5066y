@@ -98,7 +98,7 @@ From the **Contingency Tables** menu:
 </div>
 
 <div style="text-align: center; margin-top: 3em;">
-    <a href="{{ "/spss/" | relative_url }}">← Return to jamovi Guides Menu</a>
+    <a href="{{ "/spss/" | relative_url }}">← Return to SPSS Guides Menu</a>
 </div>
 
 {% include pagination.html %}

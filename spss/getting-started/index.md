@@ -11,7 +11,7 @@ title: Getting to know SPSS
     </div>
     <div class="card-text">
         <h2 style="margin-top: 0;">Getting to know SPSS</h2>
-        <p style="margin-bottom: 0;">In this section, you will look at how to enter and open data, learn about different types of data, and how to add additional modules to jamovi.</p>
+        <p style="margin-bottom: 0;">In this section, you will look at how to enter and open data, learn about different types of data, and how to add additional modules to SPSS.</p>
     </div>
 </div>
 </div>

@@ -74,7 +74,7 @@ You are going to explore whether the proportion of left to right side CVA is dif
 </div>
 
 <div style="text-align: center; margin-top: 3em;">
-    <a href="{{ "/spss/" | relative_url }}">← Return to jamovi Guides Menu</a>
+    <a href="{{ "/spss/" | relative_url }}">← Return to SPSS Guides Menu</a>
 </div>
 
 {% include pagination.html %}

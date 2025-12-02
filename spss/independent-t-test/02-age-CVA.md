@@ -63,7 +63,7 @@ From the SPSS menu
 
 </div>
 
- ![The SPSS independent-samples t-test dialog, with age in the dependent variable and CVA side in the grouping variable,  Options are selected as in information given in the instuctions.]({{ "/assets/images/pspp/t-test-dialog.png" | relative_url }})
+ ![The SPSS independent-samples t-test dialog, with age in the dependent variable and CVA side in the grouping variable.]({{ "/assets/images/pspp/t-test-dialog.png" | relative_url }})
 
 <div class="output" markdown="1">
 

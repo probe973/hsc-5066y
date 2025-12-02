@@ -19,8 +19,8 @@ Throughout these materials, you will find explanations, step-by-step jamovi inst
             <!-- SVG Icon for jamovi Guides -->
             <div class="card-icon">
             <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M 50 20 L 50 85 C 50 95 60 95 60 85 M 50 70 L 50 20" />
-    <circle cx="50" cy="20" r="5" fill="currentColor" stroke="none" />
+    <path d="M 50 15 L 50 75 C 50 90 35 90 35 75" />
+    <circle cx="50" cy="15" r="5" fill="currentColor" stroke="none" />
 </svg>
             </div>
             <div class="card-text">
@@ -29,13 +29,12 @@ Throughout these materials, you will find explanations, step-by-step jamovi inst
             </div>
         </div>
     </a>
-
     <a href="{{ "/spss/" | relative_url }}" class="card">
         <div class="card-content">
             <!-- SVG Icon for SPSS Guides -->
             <div class="card-icon">
             <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M 70 25 C 90 25 90 40 70 40 C 50 40 30 60 50 60 C 70 60 70 75 50 75 C 30 75 10 65 30 65" />
+    <path d="M 75 25 A 25 25 0 0 0 50 10 A 25 25 0 0 0 25 35 L 75 65 A 25 25 0 0 1 50 90 A 25 25 0 0 1 25 65" />
 </svg>
             </div>
             <div class="card-text">
@@ -43,8 +42,7 @@ Throughout these materials, you will find explanations, step-by-step jamovi inst
                 <p>Access the course guides for using the SPSS statistical software.</p>
             </div>
         </div>
-    </a>
-    
+    </a>   
     <a href="{{ "/let/" | relative_url }}" class="card">
         <div class="card-content">
             <!-- SVG Icon for LET Workshops -->

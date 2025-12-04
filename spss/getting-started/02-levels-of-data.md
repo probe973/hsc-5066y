@@ -18,10 +18,10 @@ All data can be broadly split into two main types: **categorical** and **numeric
 
 When data is categorical, we can further classify it:
 
-*   **Nominal:** These are categories with no inherent order or ranking. In jamovi, this is the **Nominal** data type.
+*   **Nominal:** These are categories with no inherent order or ranking. In SPSS, this is the **Nominal** data type.
     *   *Example:* Types of pets (Dog, Cat, Fish).
 
-*   **Ordinal:** These are categories that have a meaningful order or rank, but the distance between the categories is not equal or measurable. In jamovi, this is the **Ordinal** data type.
+*   **Ordinal:** These are categories that have a meaningful order or rank, but the distance between the categories is not equal or measurable. In SPSS, this is the **Ordinal** data type.
     *   *Example:* A satisfaction rating (Very Dissatisfied, Dissatisfied, Neutral, Satisfied, Very Satisfied).
 </div>
 

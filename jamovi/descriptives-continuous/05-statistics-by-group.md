@@ -22,7 +22,7 @@ In this example you are going to generate the descriptive statistics for age aga
 
 You should now see each of the statistics split for each of the sexes in the datafile.
 
-</dvi>
+</div>
 
 <div class="output" markdown="1">
 

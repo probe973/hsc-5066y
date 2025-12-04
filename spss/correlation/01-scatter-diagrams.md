@@ -22,7 +22,7 @@ Using the scatter diagram you can observe if there is any relationship between t
 
 You are going to see if there is an association with users age and their ARAT score after 3 months.
 
-* From the jamovi menu go to **Graps** → **Scatter/Dot**
+* From the jamovi menu go to **Graphs** → **Scatter/Dot**
 * Choose **Simple Scatter** and click **Define**
 * Place `Age` in the **X-Axis** box
 * Place `ARAT3month` in the **Y-Axis** box
@@ -44,7 +44,7 @@ The trend appears to be that as age increases the ARAT score decreases.  This wo
 
 You are going to see if there is an association with users age and their ARAT score after 3 months.
 
-* From the jamovi menu go to **Graps** → **Scatter/Dot**
+* From the jamovi menu go to **Graphs** → **Scatter/Dot**
 * Choose **Simple Scatter** and click **Define**
 * Click **Reset** to clear previous work
 * Place `Age` in the **X-Axis** box

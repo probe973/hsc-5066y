@@ -29,7 +29,7 @@ From the SPSS menus:
 
 * Go to **Transform** → **Compute Variable**
 * In the **Target Variable** box give the new variable a name, let's say `GHQ_Change`
-* In the **Numeric Expression** box we will put the equation that gives the difference between the GHQ 3 months and GHQ baseline: `GHQ3months` - `GHQ12Base`
+* In the **Numeric Expression** box we will put the equation that gives the difference between the GHQ 3 months and GHQ baseline: `GHQ3months` - `GHQ12base`
 * Click OK
 
 You should now have a new variable in your dataset that is the difference made over the 3 months.

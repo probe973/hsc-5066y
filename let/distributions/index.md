@@ -172,32 +172,36 @@ Consider the following histograms and statistics:
 
 Set 1
 
-| Mean | 49.2 |
+| Statistic | Value |
 |:----|:----|
+| Mean | 49.2 |
 | Median | 50 |
 | Standard Deviation | 10.5 |
 | Skew | -0.64 |
 
 Set 2
 
-| Mean | 29.9 |
+| Statistic | Value |
 |:----|:----|
+| Mean | 29.9 |
 | Median | 30 |
 | Standard Deviation | 11.4 |
 | Skew | 0 |
 
 Set 3
 
-| Mean | 50 |
+| Statistic | Value |
 |:----|:----|
+| Mean | 50 |
 | Median | 50 |
 | Standard Deviation | 5.7 |
 | Skew | 0 |
 
 Set 4
 
-| Mean | 49.9 |
+| Statistic | Value |
 |:----|:----|
+| Mean | 49.9 |
 | Median | 50 |
 | Standard Deviation | 11.4 |
 | Skew | 0 |

@@ -58,7 +58,7 @@ The new dataset is: $34, 35, 35, 36, 40, 40, 40, 40, 41, 50, 65, 100$.
     question_text="Recalculate the **median** of the new dataset."
     correct_answer="40"
     tolerance="0"
-    solution_text="The median is the average of the 6th and 7th values: $\frac{40 + 40}{2} = 40$. The median is not affected by the extreme values."
+    solution_text="The median is the average of the 6th and 7th values: $\frac{40 + 40}{2} = 40$. The median is not affected by these 3 extreme values."
 %}
 
 {% include question_numerical.html
@@ -74,7 +74,7 @@ The new dataset is: $34, 35, 35, 36, 40, 40, 40, 40, 41, 50, 65, 100$.
     id="q2_contrast"
     title="Question 2c: Mean vs. Median"
     question_text="What do you notice about the values for the median and mean between Question 1 and Question 2?"
-    solution_text="The **median** remained the same (40), but the **mean** increased significantly (from 39.58 to 48.83). This demonstrates that the mean is sensitive to extreme values (outliers), while the median is resistant to them."
+    solution_text="The **median** remained the same (40), but the **mean** increased significantly (from 39.58 to 48.83). This demonstrates that the mean is sensitive to extreme values (outliers), while the median is more resistant to them."
 %}
 
 {% include question_multiple_choice.html
@@ -156,9 +156,9 @@ Summary statistics are provided for three sets of data:
     title="Question 4c: Compare and Contrast"
     question_text="Compare and contrast the three datasets."
     solution_text="
-*   **Set A:** Highly positively skewed (Skew=1.6) and high dispersion (SD=6.8). The Mean (45.4) is significantly higher than the Median (33), confirming the extreme positive skew.
-*   **Set B:** Low dispersion (SD=2.3) and very low positive skew (Skew=0.21). The Mean and Median are very close, indicating a nearly symmetrical distribution.
-*   **Set C:** Very low dispersion (SD=0.9), and nearly perfectly symmetrical (Skew=-0.12). This is a highly uniform and clustered dataset.
+*   Set A has a much higher mean value than the other two datasets, which have similar means.  The medians of all of the datasets are very similar. 
+*   Set A is highly skewed to the right, whereas the other two datasets are more symmetrical.
+*   Set C is the least spread of the three datasets, with the lowest standard deviation.
 "
 %}
 

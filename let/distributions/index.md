@@ -170,41 +170,13 @@ Consider the following histograms and statistics:
 
 ![A 2 by 2 grid of histograms.  Top left has symettry and is centred around 30.  Top right has symettry, but less spread than others, and is centred around 50.  Bottom left has symettry and is centred around 50.  Bottom right has a tail to the left and is centred around 50.  In the same order the diagrams are labelled A, B, C, and D.]({{ "/assets/images/let/histogram_match.png" | relative_url }})
 
-Set 1
 
-| Statistic | Value |
-|:----|:----|
-| Mean | 49.2 |
-| Median | 50 |
-| Standard Deviation | 10.5 |
-| Skew | -0.64 |
-
-Set 2
-
-| Statistic | Value |
-|:----|:----|
-| Mean | 29.9 |
-| Median | 30 |
-| Standard Deviation | 11.4 |
-| Skew | 0 |
-
-Set 3
-
-| Statistic | Value |
-|:----|:----|
-| Mean | 50 |
-| Median | 50 |
-| Standard Deviation | 5.7 |
-| Skew | 0 |
-
-Set 4
-
-| Statistic | Value |
-|:----|:----|
-| Mean | 49.9 |
-| Median | 50 |
-| Standard Deviation | 11.4 |
-| Skew | 0 |
+| Statistic | Set 1 | Set 2 | Set 3 | Set 4 |
+|:----|:----|:----|:----|:----|
+| Mean | 49.2 | 29.9 | 50 | 49.9 |
+| Median | 50 | 30 | 50 | 50 |
+| Standard Deviation | 10.5 | 11.4 | 5.7 | 11.4 |
+| Skew | -0.64 | 0 | 0 | 0 |
 
 
 {% include question_dropdown.html

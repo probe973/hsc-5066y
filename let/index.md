@@ -120,4 +120,4 @@ Here you will find workshops being delivered by the LET, with questions and solu
 
 ### PDF's for printing
 
-PDF files of the workshops can be found <a href="{{ "/let/pdf/" | relative_url target="_blank">}}here. </a>
+PDF files of the workshops can be found <a href="{{ "/let/pdf/" | relative_url target="_blank"}}>here. </a>

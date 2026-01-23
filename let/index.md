@@ -121,3 +121,7 @@ Here you will find workshops being delivered by the LET, with questions and solu
 ### PDF's for printing
 
 PDF files of the workshops can be found <a href="{{ "/let/pdf/" | relative_url }}">here. </a>
+
+### Learning Enhancement Team
+
+You can find out more about the Learning Enhancement Team, LET, by clicking <a href="https://my.uea.ac.uk/divisions/library-and-learning-enhancement/learning-enhancement/" target="_blank">here</a>.

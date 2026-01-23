@@ -19,9 +19,11 @@ For each of the following studies, determine whether the design is cross-section
     
 For distinguishing between case-control and cohort studies, you may find this image useful.
 
-<a title="Jmarchn, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ExplainingCaseControlSJW-en.svg"><img width="512" alt="A diagram explaining the differences between a case-control study, a prospective cohort study, and a retrospective cohort study." src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/ExplainingCaseControlSJW-en.svg/256px-ExplainingCaseControlSJW-en.svg.png?20190108084640"></a>
+<a title="Jmarchn, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ExplainingCaseControlSJW-en.svg"><img width="400" alt="A diagram explaining the differences between a case-control study, a prospective cohort study, and a retrospective cohort study." src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/ExplainingCaseControlSJW-en.svg/256px-ExplainingCaseControlSJW-en.svg.png?20190108084640"></a>
 
+<center>
 <a href="https://commons.wikimedia.org/wiki/File:ExplainingCaseControlSJW-en.svg">Jmarchn</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+</center>
 
 </div>
 

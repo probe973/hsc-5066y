@@ -102,7 +102,7 @@ Consider the following three sets of data:
     question_text="For each set of data, calculate the summary statistics of the median, the mean, and the range."
     solution_text="
 **Set A (N=12):** Mean = 16.33, Median = 16.0, Range = 8  
-**Set B (N=9):** Mean = 18.22, Median = 16.0, Range = 30  
+**Set B (N=9):** Mean = 16, Median = 16.0, Range = 30  
 **Set C (N=12):** Mean = 26.42, Median = 27.0, Range = 9  
 "
 %}
@@ -112,7 +112,7 @@ Consider the following three sets of data:
     title="Question 3b: Compare and Contrast"
     question_text="Compare and contrast the three datasets based on their summary statistics."
     solution_text="
-*   **Central Tendency (Mean/Median):** Set A and Set B have similar median/mean values (around 16-18), while Set C has a much higher central tendency (around 26-27).
+*   **Central Tendency (Mean/Median):** Set A and Set B have similar median/mean values (around 16), while Set C has a much higher central tendency (around 26-27).
 *   **Dispersion (Range):** Set B has the largest range (30), indicating the greatest spread of data. Set A has the smallest range (8), indicating the most homogeneous (least spread) data.
 *   **Skew:** Set A and Set C have very similar mean and median values, suggesting they are relatively symmetrical. Set B's mean (18.22) is slightly higher than its median (16.0), indicating a slight positive skew due to the high end of the data.
 "

@@ -114,7 +114,7 @@ Consider the following three sets of data:
     solution_text="
 *   **Central Tendency (Mean/Median):** Set A and Set B have similar median/mean values (around 16), while Set C has a much higher central tendency (around 26-27).
 *   **Dispersion (Range):** Set B has the largest range (30), indicating the greatest spread of data. Set A has the smallest range (8), indicating the most homogeneous (least spread) data.
-*   **Skew:** All datasets have very similar mean and median values, suggesting they are all relatively symmetrical.
+*   **Skew:** All datasets have very similar mean and median values, suggesting they are all relatively symmetrical."
 %}
 
 ---

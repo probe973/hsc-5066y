@@ -28,10 +28,10 @@ Nearly every statistical test you perform follows these fundamental steps:
         *   *Example:* "There **is a difference** in mean well-being scores between the intervention and control groups."
 
 3.  **Choose and Perform a Statistical Test**
-    Based on your research question, the number of groups, and the level of measurement of your data, you select the appropriate test (e.g., a t-test, ANOVA, Chi-Square). You will then use software like jamovi to run this test on your sample data.
+    Based on your research question, the number of groups, and the level of measurement of your data, you select the appropriate test (e.g., a t-test, ANOVA, Chi-Square). You will then use software, like SPSS, to run this test on your sample data.
 
 4.  **Calculate the Test Statistic and the p-value**
-    When jamovi runs the test, it will produce two crucial numbers:
+    When SPSS runs the test, it will produce two crucial numbers:
     *   **The Test Statistic:** A single number (e.g., a *t*-value or a *χ²*-value) that summarizes how far your sample data deviates from what you would expect if the null hypothesis were true. A larger test statistic generally suggests a greater effect.
     *   **The p-value:** This is the most important output. The p-value is the probability of observing your sample's results (or results even more extreme) **if the null hypothesis were actually true.**
 

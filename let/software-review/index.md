@@ -340,4 +340,81 @@ You are now going to carry out an independent-samples t-test or Mann-Whitney U t
 
 ---
 
+<div class="explanation" markdown="1">
+
+## Alternative to comparing the treatment and no treatment group
+
+An alternative, and maybe preferred method, to see whether the treatment group improved more than the no treatment group, would be to calculate a variable that represents how much improvement there has been for each individual over the pre to post period.
+
+You would then carry out the independent-samples t-test on the change variable
+
+</div>
+
+<div class="instructions" markdown="1">
+
+## Computing a new variable
+
+### SPSS
+
+Transform → Compute Variable
+
+Place the `PostCNH` variable into the **Numeric Expression**, type `-` or click the `-` button, then place the `PostCNH` variable into the **Numeric Expression**
+
+It should read PostCNH - PreCNH
+
+In the **Target Variable** give this new variable a name, such as `Change`.
+
+Click **OK**
+
+### Jamovi
+
+Find acolumn at the end of the jamovi dataset, such as `Treatment` and click one of the participants in there.
+
+Goto **Data** then click **Compute**
+
+Change the name of the variable (the top box) from the letter that is there to something like `Change`
+
+Click the **$f_x$ button
+
+From the **Variables** list double-click the `PostCNH` variable.
+
+It will appear in the box above.  Type a minus `-` sign after this.
+
+From the **Variables** list double-click the `PreCNH` variable.
+
+The box should read PostCNH - PreCNH
+
+The `Change` variable should now be populated.
+
+</div>
+
+<div class="instructions" markdown="1">
+
+## Independent-Samples t-Test
+
+You should now carry out the independent-samples t-test, with the `Change` variable as the dependent variable and the `Treatment` variable as the grouping variable.
+
+</div>
+
+<div class="output" markdown="1">
+
+You should find that:
+
+Homogeneity of variances, as assessed by the Levene test, was not violated, so equal variances can be assumed.
+
+The mean change of the no treatment group was a decrease of 1.19 in CNH
+
+THe mean change of the treatment group was a decrease of 3.33 in CNH
+
+This is mean difference between the groups of 2.14, in favour of the treatment group, with a 95% confidence interval of (1.48, 2.80)
+
+The independent-samples t-test found evidence that the amount of change in the treatment group was significantly higher than the amount of change in the no treatment group.
+
+$$t(148) = 6.44, p < .001$$
+
+</div>
+
+
+
+
 ### End of the workshop

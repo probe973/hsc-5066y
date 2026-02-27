@@ -374,7 +374,7 @@ Goto **Data** then click **Compute**
 
 Change the name of the variable (the top box) from the letter that is there to something like `Change`
 
-Click the **$f_x$ button
+Click the **$f_x$** button
 
 From the **Variables** list double-click the `PostCNH` variable.
 
